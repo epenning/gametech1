@@ -1,8 +1,4 @@
 // Erin Pennington
 
-PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
+#include "PlayingField.h"
 
-}
-PlayingField::~PlayingField() {
-
-}

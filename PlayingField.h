@@ -1,3 +1,6 @@
+#ifndef __PlayingField_h_
+#define __PlayingField_h_
+
 #include <Ogre.h>
 
 class PlayingField {
@@ -9,4 +12,6 @@ public:
     Ogre::SceneNode* getNode() {
         return rootNode;
     }
-}
+};
+
+#endif

@@ -34,81 +34,13 @@ void TutorialApplication::createScene(void)
 
     mSceneMgr->setSkyBox(true, "Examples/MorningSkyBox", 5000, false);
 
-    // Create room
-
-    Ogre::Plane plane(Ogre::Vector3::UNIT_Y, -50);
-    Ogre::MeshManager::getSingleton().createPlane( "ground",
-        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane, 
-        100, 100, 1, 1, 
-        true, 
-        1, 5, 5, 
-        Ogre::Vector3::UNIT_Z);
-    Ogre::Entity* groundEntity = mSceneMgr->createEntity("ground");
-    mSceneMgr->getRootSceneNode()->createChildSceneNode()->attachObject(groundEntity);
-
-    Ogre::Plane plane2(Ogre::Vector3::NEGATIVE_UNIT_Y, -50);
-    Ogre::MeshManager::getSingleton().createPlane( "roof",
-        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane2, 
-        100, 100, 1, 1, 
-        true, 
-        1, 5, 5, 
-        Ogre::Vector3::UNIT_Z);
-    Ogre::Entity* roofEntity = mSceneMgr->createEntity("roof");
-    mSceneMgr->getRootSceneNode()->createChildSceneNode()->attachObject(roofEntity);
-
-    Ogre::Plane plane3(Ogre::Vector3::UNIT_Z, -50);
-    Ogre::MeshManager::getSingleton().createPlane( "wall1",
-        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane3, 
-        100, 100, 1, 1, 
-        true, 
-        1, 5, 5, 
-        Ogre::Vector3::UNIT_Y);
-    Ogre::Entity* wall1Entity = mSceneMgr->createEntity("wall1");
-    mSceneMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall1Entity);
-
-    Ogre::Plane plane4(Ogre::Vector3::NEGATIVE_UNIT_Z, -50);
-    Ogre::MeshManager::getSingleton().createPlane( "wall2",
-        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane4, 
-        100, 100, 1, 1, 
-        true, 
-        1, 5, 5, 
-        Ogre::Vector3::UNIT_Y);
-    Ogre::Entity* wall2Entity = mSceneMgr->createEntity("wall2");
-    mSceneMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall2Entity);
-
-    Ogre::Plane plane5(Ogre::Vector3::UNIT_X, -50);
-    Ogre::MeshManager::getSingleton().createPlane( "wall3",
-        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane5, 
-        100, 100, 1, 1, 
-        true, 
-        1, 5, 5, 
-        Ogre::Vector3::UNIT_Z);
-    Ogre::Entity* wall3Entity = mSceneMgr->createEntity("wall3");
-    mSceneMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall3Entity);
-
-    Ogre::Plane plane6(Ogre::Vector3::NEGATIVE_UNIT_X, -50);
-    Ogre::MeshManager::getSingleton().createPlane( "wall4",
-        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane6, 
-        100, 100, 1, 1, 
-        true, 
-        1, 5, 5, 
-        Ogre::Vector3::UNIT_Z);
-    Ogre::Entity* wall4Entity = mSceneMgr->createEntity("wall4");
-    mSceneMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall4Entity);
+    PlayingField* bCourt = new PlayingField(mSceneMgr);
+    Ball* ball = new Ball(mSceneMgr);
+    ball->setPlayingField(bCourt);
 
     // Everything else
 
-    Ogre::Entity* sphereEntity = mSceneMgr->createEntity("sphere.mesh");
-    sphereEntity->setCastShadows(true);
-    Ogre::SceneNode* sphereNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
-    sphereNode->attachObject(sphereEntity);
-    sphereNode->setScale(0.05,0.05,0.05);
+    
 
     Ogre::Light* directionalLight = mSceneMgr->createLight("DirectionalLight");
     directionalLight->setType(Ogre::Light::LT_DIRECTIONAL);
@@ -213,6 +145,99 @@ void TutorialApplication::createViewports()
         Ogre::Real(vp->getActualWidth()) /
         Ogre::Real(vp->getActualHeight()));
 }
+
+PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
+
+    // Create room
+
+    Ogre::Plane plane(Ogre::Vector3::UNIT_Y, -50);
+    Ogre::MeshManager::getSingleton().createPlane( "ground",
+        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
+        plane, 
+        100, 100, 1, 1, 
+        true, 
+        1, 5, 5, 
+        Ogre::Vector3::UNIT_Z);
+    Ogre::Entity* groundEntity = scnMgr->createEntity("ground");
+    scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(groundEntity);
+
+    Ogre::Plane plane2(Ogre::Vector3::NEGATIVE_UNIT_Y, -50);
+    Ogre::MeshManager::getSingleton().createPlane( "roof",
+        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
+        plane2, 
+        100, 100, 1, 1, 
+        true, 
+        1, 5, 5, 
+        Ogre::Vector3::UNIT_Z);
+    Ogre::Entity* roofEntity = scnMgr->createEntity("roof");
+    scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(roofEntity);
+
+    Ogre::Plane plane3(Ogre::Vector3::UNIT_Z, -50);
+    Ogre::MeshManager::getSingleton().createPlane( "wall1",
+        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
+        plane3, 
+        100, 100, 1, 1, 
+        true, 
+        1, 5, 5, 
+        Ogre::Vector3::UNIT_Y);
+    Ogre::Entity* wall1Entity = scnMgr->createEntity("wall1");
+    scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall1Entity);
+
+    Ogre::Plane plane4(Ogre::Vector3::NEGATIVE_UNIT_Z, -50);
+    Ogre::MeshManager::getSingleton().createPlane( "wall2",
+        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
+        plane4, 
+        100, 100, 1, 1, 
+        true, 
+        1, 5, 5, 
+        Ogre::Vector3::UNIT_Y);
+    Ogre::Entity* wall2Entity = scnMgr->createEntity("wall2");
+    scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall2Entity);
+
+    Ogre::Plane plane5(Ogre::Vector3::UNIT_X, -50);
+    Ogre::MeshManager::getSingleton().createPlane( "wall3",
+        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
+        plane5, 
+        100, 100, 1, 1, 
+        true, 
+        1, 5, 5, 
+        Ogre::Vector3::UNIT_Z);
+    Ogre::Entity* wall3Entity = scnMgr->createEntity("wall3");
+    scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall3Entity);
+
+    Ogre::Plane plane6(Ogre::Vector3::NEGATIVE_UNIT_X, -50);
+    Ogre::MeshManager::getSingleton().createPlane( "wall4",
+        Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
+        plane6, 
+        100, 100, 1, 1, 
+        true, 
+        1, 5, 5, 
+        Ogre::Vector3::UNIT_Z);
+    Ogre::Entity* wall4Entity = scnMgr->createEntity("wall4");
+    scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall4Entity);
+}
+PlayingField::~PlayingField() {
+
+}
+
+Ball::Ball(Ogre::SceneManager* scnMgr) {
+    Ogre::Entity* sphereEntity = scnMgr->createEntity("sphere.mesh");
+    sphereEntity->setCastShadows(true);
+    Ogre::SceneNode* sphereNode = scnMgr->getRootSceneNode()->createChildSceneNode();
+    sphereNode->attachObject(sphereEntity);
+    sphereNode->setScale(0.05,0.05,0.05);
+}
+
+Ball::~Ball() {
+}
+
+Ball::move(const Ogre::FrameEvent& evt) {
+    
+}
+
+
+
+
 #if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
 #define WIN32_LEAN_AND_MEAN
 #include "windows.h"

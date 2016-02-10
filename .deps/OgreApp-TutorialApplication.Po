@@ -803,7 +803,82 @@ OgreApp-TutorialApplication.o: TutorialApplication.cpp \
  /usr/local/include/OGRE/OgreNode.h \
  /usr/local/include/OGRE/OgreFrameListener.h \
  /usr/local/include/OGRE/OgreMeshManager.h \
- /usr/local/include/OGRE/OgrePatchSurface.h
+ /usr/local/include/OGRE/OgrePatchSurface.h PlayingField.h \
+ /usr/local/include/OGRE/Ogre.h /usr/local/include/OGRE/OgreAnimation.h \
+ /usr/local/include/OGRE/OgreAnimationTrack.h \
+ /usr/local/include/OGRE/OgreSimpleSpline.h \
+ /usr/local/include/OGRE/OgreRotationalSpline.h \
+ /usr/local/include/OGRE/OgrePose.h \
+ /usr/local/include/OGRE/OgreArchiveManager.h \
+ /usr/local/include/OGRE/OgreBillboard.h \
+ /usr/local/include/OGRE/OgreBillboardChain.h \
+ /usr/local/include/OGRE/OgreBillboardSet.h \
+ /usr/local/include/OGRE/OgreBone.h \
+ /usr/local/include/OGRE/OgreCompositor.h \
+ /usr/local/include/OGRE/OgreCompositorManager.h \
+ /usr/local/include/OGRE/OgreCompositionTechnique.h \
+ /usr/local/include/OGRE/OgreCompositorChain.h \
+ /usr/local/include/OGRE/OgreRenderTargetListener.h \
+ /usr/local/include/OGRE/OgreRenderQueueListener.h \
+ /usr/local/include/OGRE/OgreCompositorInstance.h \
+ /usr/local/include/OGRE/OgreMaterialManager.h \
+ /usr/local/include/OGRE/OgreViewport.h \
+ /usr/local/include/OGRE/OgreCompositionPass.h \
+ /usr/local/include/OGRE/OgreCompositionTargetPass.h \
+ /usr/local/include/OGRE/OgreConfigFile.h \
+ /usr/local/include/OGRE/OgreControllerManager.h \
+ /usr/local/include/OGRE/OgreEntity.h \
+ /usr/local/include/OGRE/OgreGpuProgramManager.h \
+ /usr/local/include/OGRE/OgreHardwarePixelBuffer.h \
+ /usr/local/include/OGRE/OgreHardwareOcclusionQuery.h \
+ /usr/local/include/OGRE/OgreHighLevelGpuProgram.h \
+ /usr/local/include/OGRE/OgreHighLevelGpuProgramManager.h \
+ /usr/local/include/OGRE/OgreInstanceBatch.h \
+ /usr/local/include/OGRE/OgreMesh.h \
+ /usr/local/include/OGRE/OgreVertexBoneAssignment.h \
+ /usr/local/include/OGRE/OgreInstancedEntity.h \
+ /usr/local/include/OGRE/OgreKeyFrame.h \
+ /usr/local/include/OGRE/OgreLogManager.h \
+ /usr/local/include/OGRE/OgreManualObject.h \
+ /usr/local/include/OGRE/OgreMaterialSerializer.h \
+ /usr/local/include/OGRE/OgreMeshManager.h \
+ /usr/local/include/OGRE/OgreMovablePlane.h \
+ /usr/local/include/OGRE/OgreMeshSerializer.h \
+ /usr/local/include/OGRE/OgreMeshSerializerImpl.h \
+ /usr/local/include/OGRE/OgreEdgeListBuilder.h \
+ /usr/local/include/OGRE/OgreParticleAffector.h \
+ /usr/local/include/OGRE/OgreParticleEmitter.h \
+ /usr/local/include/OGRE/OgreParticleEmitterCommands.h \
+ /usr/local/include/OGRE/OgreParticle.h \
+ /usr/local/include/OGRE/OgreParticleSystem.h \
+ /usr/local/include/OGRE/OgreParticleIterator.h \
+ /usr/local/include/OGRE/OgreParticleSystemManager.h \
+ /usr/local/include/OGRE/OgrePatchMesh.h \
+ /usr/local/include/OGRE/OgreProfiler.h \
+ /usr/local/include/OGRE/OgreRenderQueueInvocation.h \
+ /usr/local/include/OGRE/OgreRenderObjectListener.h \
+ /usr/local/include/OGRE/OgreRenderTexture.h \
+ /usr/local/include/OGRE/OgreResourceBackgroundQueue.h \
+ /usr/local/include/OGRE/OgreWorkQueue.h \
+ /usr/local/include/OGRE/OgreRibbonTrail.h \
+ /usr/local/include/OGRE/OgreShadowCameraSetup.h \
+ /usr/local/include/OGRE/OgreShadowCameraSetupFocused.h \
+ /usr/local/include/OGRE/OgrePolygon.h \
+ /usr/local/include/OGRE/OgreConvexBody.h \
+ /usr/local/include/OGRE/OgreShadowCameraSetupLiSPSM.h \
+ /usr/local/include/OGRE/OgreShadowCameraSetupPlaneOptimal.h \
+ /usr/local/include/OGRE/OgreShadowCameraSetupPSSM.h \
+ /usr/local/include/OGRE/OgreSimpleRenderable.h \
+ /usr/local/include/OGRE/OgreSkeleton.h \
+ /usr/local/include/OGRE/OgreSkeletonInstance.h \
+ /usr/local/include/OGRE/OgreSkeletonManager.h \
+ /usr/local/include/OGRE/OgreSkeletonSerializer.h \
+ /usr/local/include/OGRE/OgreStaticGeometry.h \
+ /usr/local/include/OGRE/OgreSubEntity.h \
+ /usr/local/include/OGRE/OgreSubMesh.h \
+ /usr/local/include/OGRE/OgreTechnique.h \
+ /usr/local/include/OGRE/OgreTextureManager.h \
+ /usr/local/include/OGRE/OgreWindowEventUtilities.h Ball.h
 
 /usr/include/stdc-predef.h:
 
@@ -2622,3 +2697,159 @@ BaseApplication.h:
 /usr/local/include/OGRE/OgreMeshManager.h:
 
 /usr/local/include/OGRE/OgrePatchSurface.h:
+
+PlayingField.h:
+
+/usr/local/include/OGRE/Ogre.h:
+
+/usr/local/include/OGRE/OgreAnimation.h:
+
+/usr/local/include/OGRE/OgreAnimationTrack.h:
+
+/usr/local/include/OGRE/OgreSimpleSpline.h:
+
+/usr/local/include/OGRE/OgreRotationalSpline.h:
+
+/usr/local/include/OGRE/OgrePose.h:
+
+/usr/local/include/OGRE/OgreArchiveManager.h:
+
+/usr/local/include/OGRE/OgreBillboard.h:
+
+/usr/local/include/OGRE/OgreBillboardChain.h:
+
+/usr/local/include/OGRE/OgreBillboardSet.h:
+
+/usr/local/include/OGRE/OgreBone.h:
+
+/usr/local/include/OGRE/OgreCompositor.h:
+
+/usr/local/include/OGRE/OgreCompositorManager.h:
+
+/usr/local/include/OGRE/OgreCompositionTechnique.h:
+
+/usr/local/include/OGRE/OgreCompositorChain.h:
+
+/usr/local/include/OGRE/OgreRenderTargetListener.h:
+
+/usr/local/include/OGRE/OgreRenderQueueListener.h:
+
+/usr/local/include/OGRE/OgreCompositorInstance.h:
+
+/usr/local/include/OGRE/OgreMaterialManager.h:
+
+/usr/local/include/OGRE/OgreViewport.h:
+
+/usr/local/include/OGRE/OgreCompositionPass.h:
+
+/usr/local/include/OGRE/OgreCompositionTargetPass.h:
+
+/usr/local/include/OGRE/OgreConfigFile.h:
+
+/usr/local/include/OGRE/OgreControllerManager.h:
+
+/usr/local/include/OGRE/OgreEntity.h:
+
+/usr/local/include/OGRE/OgreGpuProgramManager.h:
+
+/usr/local/include/OGRE/OgreHardwarePixelBuffer.h:
+
+/usr/local/include/OGRE/OgreHardwareOcclusionQuery.h:
+
+/usr/local/include/OGRE/OgreHighLevelGpuProgram.h:
+
+/usr/local/include/OGRE/OgreHighLevelGpuProgramManager.h:
+
+/usr/local/include/OGRE/OgreInstanceBatch.h:
+
+/usr/local/include/OGRE/OgreMesh.h:
+
+/usr/local/include/OGRE/OgreVertexBoneAssignment.h:
+
+/usr/local/include/OGRE/OgreInstancedEntity.h:
+
+/usr/local/include/OGRE/OgreKeyFrame.h:
+
+/usr/local/include/OGRE/OgreLogManager.h:
+
+/usr/local/include/OGRE/OgreManualObject.h:
+
+/usr/local/include/OGRE/OgreMaterialSerializer.h:
+
+/usr/local/include/OGRE/OgreMeshManager.h:
+
+/usr/local/include/OGRE/OgreMovablePlane.h:
+
+/usr/local/include/OGRE/OgreMeshSerializer.h:
+
+/usr/local/include/OGRE/OgreMeshSerializerImpl.h:
+
+/usr/local/include/OGRE/OgreEdgeListBuilder.h:
+
+/usr/local/include/OGRE/OgreParticleAffector.h:
+
+/usr/local/include/OGRE/OgreParticleEmitter.h:
+
+/usr/local/include/OGRE/OgreParticleEmitterCommands.h:
+
+/usr/local/include/OGRE/OgreParticle.h:
+
+/usr/local/include/OGRE/OgreParticleSystem.h:
+
+/usr/local/include/OGRE/OgreParticleIterator.h:
+
+/usr/local/include/OGRE/OgreParticleSystemManager.h:
+
+/usr/local/include/OGRE/OgrePatchMesh.h:
+
+/usr/local/include/OGRE/OgreProfiler.h:
+
+/usr/local/include/OGRE/OgreRenderQueueInvocation.h:
+
+/usr/local/include/OGRE/OgreRenderObjectListener.h:
+
+/usr/local/include/OGRE/OgreRenderTexture.h:
+
+/usr/local/include/OGRE/OgreResourceBackgroundQueue.h:
+
+/usr/local/include/OGRE/OgreWorkQueue.h:
+
+/usr/local/include/OGRE/OgreRibbonTrail.h:
+
+/usr/local/include/OGRE/OgreShadowCameraSetup.h:
+
+/usr/local/include/OGRE/OgreShadowCameraSetupFocused.h:
+
+/usr/local/include/OGRE/OgrePolygon.h:
+
+/usr/local/include/OGRE/OgreConvexBody.h:
+
+/usr/local/include/OGRE/OgreShadowCameraSetupLiSPSM.h:
+
+/usr/local/include/OGRE/OgreShadowCameraSetupPlaneOptimal.h:
+
+/usr/local/include/OGRE/OgreShadowCameraSetupPSSM.h:
+
+/usr/local/include/OGRE/OgreSimpleRenderable.h:
+
+/usr/local/include/OGRE/OgreSkeleton.h:
+
+/usr/local/include/OGRE/OgreSkeletonInstance.h:
+
+/usr/local/include/OGRE/OgreSkeletonManager.h:
+
+/usr/local/include/OGRE/OgreSkeletonSerializer.h:
+
+/usr/local/include/OGRE/OgreStaticGeometry.h:
+
+/usr/local/include/OGRE/OgreSubEntity.h:
+
+/usr/local/include/OGRE/OgreSubMesh.h:
+
+/usr/local/include/OGRE/OgreTechnique.h:
+
+/usr/local/include/OGRE/OgreTextureManager.h:
+
+/usr/local/include/OGRE/OgreWindowEventUtilities.h:
+
+Ball.h:

@@ -1,3 +1,6 @@
+#ifndef __Ball_h_
+#define __Ball_h_
+
 #include <Ogre.h>
 #include "PlayingField.h"
 
@@ -18,4 +21,6 @@ public:
     void setPlayingField(PlayingField* pf) {
         grounds = pf;
     }
-}
+};
+
+#endif

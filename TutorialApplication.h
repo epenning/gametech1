@@ -20,6 +20,8 @@ http://www.ogre3d.org/wiki/
 
 #include "BaseApplication.h"
 #include <OgreMeshManager.h>
+#include "PlayingField.h"
+#include "Ball.h"
 
 //---------------------------------------------------------------------------
 
