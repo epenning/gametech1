@@ -1,0 +1,8 @@
+Erin Pennington
+ELP692
+
+The project has the basic functionality of a sphere bouncing in a cube-shaped room, with the sphere starting at random directions and velocities.
+I also included materials on the faces of the room and on the sphere, and a point light which creates a shadow for the ball.
+Moving the mouse rotates the camera, but this was included in the tutorial framework, I didn't implement it.
+
+Use "./OgreApp" to run the program after building.
