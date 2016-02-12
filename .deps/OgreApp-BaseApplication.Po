@@ -1,9 +1,10 @@
 OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
- BaseApplication.h /usr/local/include/OGRE/OgreCamera.h \
- /usr/local/include/OGRE/OgrePrerequisites.h \
- /usr/local/include/OGRE/OgrePlatform.h \
- /usr/local/include/OGRE/OgreConfig.h \
- /usr/local/include/OGRE/OgreBuildSettings.h /usr/include/c++/4.8/string \
+ BaseApplication.h /lusr/opt/ogre-1.9/include/OGRE/OgreCamera.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePrerequisites.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePlatform.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreConfig.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreBuildSettings.h \
+ /usr/include/c++/4.8/string \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -64,8 +65,9 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h \
  /usr/include/c++/4.8/bits/basic_string.tcc \
- /usr/local/include/OGRE/OgreStdHeaders.h /usr/include/c++/4.8/cassert \
- /usr/include/assert.h /usr/include/c++/4.8/cstdio /usr/include/libio.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStdHeaders.h \
+ /usr/include/c++/4.8/cassert /usr/include/assert.h \
+ /usr/include/c++/4.8/cstdio /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -138,7 +140,8 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h \
- /usr/include/c++/4.8/bits/fstream.tcc /usr/include/c++/4.8/sstream \
+ /usr/include/c++/4.8/bits/fstream.tcc /usr/include/c++/4.8/iostream \
+ /usr/include/c++/4.8/iomanip /usr/include/c++/4.8/sstream \
  /usr/include/c++/4.8/bits/sstream.tcc \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/unistd.h \
@@ -147,40 +150,22 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
- /usr/local/include/OGRE/OgreMemoryAllocatorConfig.h \
- /usr/local/include/OGRE/OgreMemoryAllocatedObject.h \
- /usr/local/include/OGRE/OgreHeaderPrefix.h \
- /usr/local/include/OGRE/OgreHeaderSuffix.h \
- /usr/local/include/OGRE/OgreMemorySTLAllocator.h \
- /usr/local/include/OGRE/OgreMemoryStdAlloc.h /usr/include/c++/4.8/memory \
- /usr/include/c++/4.8/bits/stl_raw_storage_iter.h \
- /usr/include/c++/4.8/backward/auto_ptr.h \
- /usr/local/include/OGRE/OgreAlignedAllocator.h \
- /usr/local/include/OGRE/OgreMemoryTracker.h \
- /usr/local/include/OGRE/OgreCommon.h \
- /usr/local/include/OGRE/OgreFrustum.h \
- /usr/local/include/OGRE/OgreMovableObject.h \
- /usr/local/include/OGRE/OgreAxisAlignedBox.h \
- /usr/local/include/OGRE/OgreMatrix4.h \
- /usr/local/include/OGRE/OgreMatrix3.h \
- /usr/local/include/OGRE/OgreVector3.h \
- /usr/local/include/OGRE/OgreQuaternion.h \
- /usr/local/include/OGRE/OgreMath.h /usr/local/include/OGRE/OgreVector4.h \
- /usr/local/include/OGRE/OgrePlane.h /usr/local/include/OGRE/OgreSphere.h \
- /usr/local/include/OGRE/OgreShadowCaster.h \
- /usr/local/include/OGRE/OgreRenderable.h \
- /usr/local/include/OGRE/OgreGpuProgram.h \
- /usr/local/include/OGRE/OgreResource.h \
- /usr/local/include/OGRE/OgreAtomicScalar.h \
- /usr/local/include/OGRE/OgreException.h \
- /usr/local/include/OGRE/OgreString.h \
- /usr/local/include/OGRE/OgrePlatformInformation.h \
- /usr/local/include/OGRE/OgreStringInterface.h \
- /usr/local/include/OGRE/Threading/OgreThreadHeaders.h \
- /usr/local/include/OGRE/Threading/OgreThreadHeadersBoost.h \
- /usr/include/boost/thread/tss.hpp \
- /usr/include/boost/thread/detail/config.hpp \
- /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMemoryAllocatorConfig.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMemoryAllocatedObject.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHeaderPrefix.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHeaderSuffix.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMemorySTLAllocator.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMemoryNedPooling.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreString.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMovableObject.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueue.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreIteratorWrappers.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreIteratorWrapper.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreIteratorRange.h \
+ /usr/include/boost/range.hpp /usr/include/boost/range/functions.hpp \
+ /usr/include/boost/range/begin.hpp /usr/include/boost/range/config.hpp \
+ /usr/include/boost/detail/workaround.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/select_compiler_config.hpp \
  /usr/include/boost/config/compiler/gcc.hpp \
  /usr/include/boost/config/select_stdlib_config.hpp \
@@ -191,61 +176,16 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/config/platform/linux.hpp \
  /usr/include/boost/config/posix_features.hpp \
  /usr/include/boost/config/suffix.hpp \
- /usr/include/boost/detail/workaround.hpp \
- /usr/include/boost/thread/detail/platform.hpp \
- /usr/include/boost/config/requires_threads.hpp \
- /usr/include/boost/config/auto_link.hpp \
- /usr/include/boost/shared_ptr.hpp \
- /usr/include/boost/smart_ptr/shared_ptr.hpp \
- /usr/include/boost/config/no_tr1/memory.hpp \
- /usr/include/boost/assert.hpp /usr/include/c++/4.8/iostream \
- /usr/include/boost/current_function.hpp \
- /usr/include/boost/checked_delete.hpp \
- /usr/include/boost/throw_exception.hpp \
- /usr/include/boost/exception/detail/attribute_noreturn.hpp \
- /usr/include/boost/exception/exception.hpp \
- /usr/include/boost/smart_ptr/detail/shared_count.hpp \
- /usr/include/boost/smart_ptr/bad_weak_ptr.hpp \
- /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp \
- /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp \
- /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
- /usr/include/boost/detail/sp_typeinfo.hpp /usr/include/c++/4.8/typeinfo \
- /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
- /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
- /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
- /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
- /usr/include/boost/smart_ptr/detail/spinlock.hpp \
- /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp \
- /usr/include/boost/smart_ptr/detail/yield_k.hpp \
- /usr/include/boost/memory_order.hpp \
- /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
- /usr/include/boost/thread/detail/thread_heap_alloc.hpp \
- /usr/include/boost/thread/pthread/thread_heap_alloc.hpp \
- /usr/include/boost/config/abi_prefix.hpp \
- /usr/include/boost/config/abi_suffix.hpp \
- /usr/include/boost/thread/recursive_mutex.hpp \
- /usr/include/boost/thread/pthread/recursive_mutex.hpp \
- /usr/include/boost/thread/exceptions.hpp /usr/include/c++/4.8/stdexcept \
- /usr/include/boost/system/system_error.hpp \
- /usr/include/boost/system/error_code.hpp \
- /usr/include/boost/system/config.hpp \
- /usr/include/boost/system/api_config.hpp /usr/include/boost/cstdint.hpp \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
- /usr/include/boost/operators.hpp /usr/include/boost/iterator.hpp \
- /usr/include/c++/4.8/iterator \
+ /usr/include/boost/range/iterator.hpp \
+ /usr/include/boost/range/mutable_iterator.hpp \
+ /usr/include/boost/range/detail/extract_optional_type.hpp \
+ /usr/include/boost/iterator/iterator_traits.hpp \
+ /usr/include/boost/detail/iterator.hpp /usr/include/c++/4.8/iterator \
  /usr/include/c++/4.8/bits/stream_iterator.h \
- /usr/include/boost/noncopyable.hpp \
- /usr/include/boost/utility/enable_if.hpp /usr/include/boost/cerrno.hpp \
- /usr/include/c++/4.8/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/boost/thread/lock_types.hpp \
- /usr/include/boost/thread/detail/move.hpp \
- /usr/include/boost/type_traits/is_convertible.hpp \
- /usr/include/boost/type_traits/intrinsics.hpp \
- /usr/include/boost/type_traits/config.hpp \
- /usr/include/boost/type_traits/is_same.hpp \
+ /usr/include/boost/range/const_iterator.hpp \
+ /usr/include/boost/type_traits/remove_const.hpp \
+ /usr/include/boost/type_traits/is_volatile.hpp \
+ /usr/include/boost/type_traits/detail/cv_traits_impl.hpp \
  /usr/include/boost/type_traits/detail/bool_trait_def.hpp \
  /usr/include/boost/type_traits/detail/template_arity_spec.hpp \
  /usr/include/boost/mpl/int.hpp /usr/include/boost/mpl/int_fwd.hpp \
@@ -290,7 +230,12 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/mpl/integral_c_fwd.hpp \
  /usr/include/boost/mpl/aux_/lambda_support.hpp \
  /usr/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ /usr/include/boost/type_traits/broken_compiler_spec.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_def.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_undef.hpp \
+ /usr/include/boost/type_traits/is_const.hpp \
  /usr/include/boost/type_traits/is_reference.hpp \
+ /usr/include/boost/type_traits/config.hpp \
  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
  /usr/include/boost/type_traits/ice.hpp \
@@ -299,28 +244,6 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/type_traits/detail/ice_and.hpp \
  /usr/include/boost/type_traits/detail/ice_not.hpp \
  /usr/include/boost/type_traits/detail/ice_eq.hpp \
- /usr/include/boost/type_traits/is_volatile.hpp \
- /usr/include/boost/type_traits/detail/cv_traits_impl.hpp \
- /usr/include/boost/type_traits/is_array.hpp \
- /usr/include/boost/type_traits/is_arithmetic.hpp \
- /usr/include/boost/type_traits/is_integral.hpp \
- /usr/include/boost/type_traits/is_float.hpp \
- /usr/include/boost/type_traits/is_void.hpp \
- /usr/include/boost/type_traits/is_abstract.hpp \
- /usr/include/boost/type_traits/add_lvalue_reference.hpp \
- /usr/include/boost/type_traits/add_reference.hpp \
- /usr/include/boost/type_traits/detail/type_trait_def.hpp \
- /usr/include/boost/type_traits/detail/type_trait_undef.hpp \
- /usr/include/boost/type_traits/add_rvalue_reference.hpp \
- /usr/include/boost/type_traits/is_function.hpp \
- /usr/include/boost/type_traits/detail/false_result.hpp \
- /usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
- /usr/include/boost/type_traits/remove_reference.hpp \
- /usr/include/boost/type_traits/broken_compiler_spec.hpp \
- /usr/include/boost/type_traits/remove_cv.hpp \
- /usr/include/boost/type_traits/decay.hpp \
- /usr/include/boost/type_traits/remove_bounds.hpp \
- /usr/include/boost/type_traits/add_pointer.hpp \
  /usr/include/boost/mpl/eval_if.hpp /usr/include/boost/mpl/if.hpp \
  /usr/include/boost/mpl/aux_/value_wknd.hpp \
  /usr/include/boost/mpl/aux_/config/integral.hpp \
@@ -360,7 +283,237 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/preprocessor/tuple/rem.hpp \
  /usr/include/boost/preprocessor/variadic/elem.hpp \
  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
+ /usr/include/boost/range/end.hpp \
+ /usr/include/boost/range/detail/implementation_help.hpp \
+ /usr/include/boost/range/detail/common.hpp \
+ /usr/include/boost/range/detail/sfinae.hpp \
+ /usr/include/boost/type_traits/is_array.hpp \
+ /usr/include/boost/type_traits/is_void.hpp \
+ /usr/include/boost/type_traits/is_same.hpp \
+ /usr/include/boost/range/size.hpp /usr/include/boost/range/size_type.hpp \
+ /usr/include/boost/range/difference_type.hpp \
+ /usr/include/boost/utility/enable_if.hpp \
+ /usr/include/boost/type_traits/make_unsigned.hpp \
+ /usr/include/boost/type_traits/is_integral.hpp \
+ /usr/include/boost/type_traits/is_signed.hpp \
+ /usr/include/boost/type_traits/remove_cv.hpp \
+ /usr/include/boost/type_traits/is_enum.hpp \
+ /usr/include/boost/type_traits/intrinsics.hpp \
+ /usr/include/boost/type_traits/is_unsigned.hpp \
+ /usr/include/boost/type_traits/add_const.hpp \
+ /usr/include/boost/type_traits/add_volatile.hpp \
+ /usr/include/boost/static_assert.hpp /usr/include/boost/assert.hpp \
+ /usr/include/boost/current_function.hpp \
+ /usr/include/boost/range/distance.hpp /usr/include/boost/range/empty.hpp \
+ /usr/include/boost/range/rbegin.hpp \
+ /usr/include/boost/range/reverse_iterator.hpp \
+ /usr/include/boost/iterator/reverse_iterator.hpp \
+ /usr/include/boost/next_prior.hpp /usr/include/boost/iterator.hpp \
+ /usr/include/boost/iterator/iterator_adaptor.hpp \
+ /usr/include/boost/iterator/iterator_categories.hpp \
+ /usr/include/boost/iterator/detail/config_def.hpp \
  /usr/include/boost/mpl/identity.hpp \
+ /usr/include/boost/mpl/placeholders.hpp /usr/include/boost/mpl/arg.hpp \
+ /usr/include/boost/mpl/arg_fwd.hpp \
+ /usr/include/boost/mpl/aux_/na_assert.hpp \
+ /usr/include/boost/mpl/assert.hpp /usr/include/boost/mpl/not.hpp \
+ /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
+ /usr/include/boost/mpl/aux_/yes_no.hpp \
+ /usr/include/boost/mpl/aux_/config/arrays.hpp \
+ /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
+ /usr/include/boost/mpl/aux_/arity_spec.hpp \
+ /usr/include/boost/mpl/aux_/arg_typedef.hpp \
+ /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
+ /usr/include/boost/mpl/aux_/config/compiler.hpp \
+ /usr/include/boost/preprocessor/stringize.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ /usr/include/boost/type_traits/is_convertible.hpp \
+ /usr/include/boost/type_traits/is_arithmetic.hpp \
+ /usr/include/boost/type_traits/is_float.hpp \
+ /usr/include/boost/type_traits/is_abstract.hpp \
+ /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+ /usr/include/boost/type_traits/add_reference.hpp \
+ /usr/include/boost/type_traits/add_rvalue_reference.hpp \
+ /usr/include/boost/type_traits/is_function.hpp \
+ /usr/include/boost/type_traits/detail/false_result.hpp \
+ /usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /usr/include/boost/iterator/detail/config_undef.hpp \
+ /usr/include/boost/iterator/iterator_facade.hpp \
+ /usr/include/boost/iterator/interoperable.hpp \
+ /usr/include/boost/mpl/or.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
+ /usr/include/boost/mpl/and.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ /usr/include/boost/detail/indirect_traits.hpp \
+ /usr/include/boost/type_traits/is_pointer.hpp \
+ /usr/include/boost/type_traits/is_member_pointer.hpp \
+ /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+ /usr/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ /usr/include/boost/type_traits/is_class.hpp \
+ /usr/include/boost/type_traits/remove_reference.hpp \
+ /usr/include/boost/type_traits/remove_pointer.hpp \
+ /usr/include/boost/iterator/detail/enable_if.hpp \
+ /usr/include/boost/utility/addressof.hpp \
+ /usr/include/boost/type_traits/add_pointer.hpp \
+ /usr/include/boost/type_traits/is_pod.hpp \
+ /usr/include/boost/type_traits/is_scalar.hpp \
+ /usr/include/boost/mpl/always.hpp /usr/include/boost/mpl/apply.hpp \
+ /usr/include/boost/mpl/apply_fwd.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ /usr/include/boost/mpl/apply_wrap.hpp \
+ /usr/include/boost/mpl/aux_/has_apply.hpp \
+ /usr/include/boost/mpl/has_xxx.hpp \
+ /usr/include/boost/mpl/aux_/type_wrapper.hpp \
+ /usr/include/boost/mpl/aux_/config/has_xxx.hpp \
+ /usr/include/boost/mpl/aux_/config/msvc_typename.hpp \
+ /usr/include/boost/preprocessor/array/elem.hpp \
+ /usr/include/boost/preprocessor/array/data.hpp \
+ /usr/include/boost/preprocessor/array/size.hpp \
+ /usr/include/boost/preprocessor/repetition/enum_params.hpp \
+ /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ /usr/include/boost/mpl/aux_/config/has_apply.hpp \
+ /usr/include/boost/mpl/aux_/msvc_never_true.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ /usr/include/boost/mpl/lambda.hpp /usr/include/boost/mpl/bind.hpp \
+ /usr/include/boost/mpl/bind_fwd.hpp \
+ /usr/include/boost/mpl/aux_/config/bind.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ /usr/include/boost/mpl/next.hpp /usr/include/boost/mpl/next_prior.hpp \
+ /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
+ /usr/include/boost/mpl/protect.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ /usr/include/boost/mpl/aux_/full_lambda.hpp \
+ /usr/include/boost/mpl/quote.hpp /usr/include/boost/mpl/void.hpp \
+ /usr/include/boost/mpl/aux_/has_type.hpp \
+ /usr/include/boost/mpl/aux_/config/bcc.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ /usr/include/boost/mpl/aux_/template_arity.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ /usr/include/boost/range/rend.hpp \
+ /usr/include/boost/range/metafunctions.hpp \
+ /usr/include/boost/range/has_range_iterator.hpp \
+ /usr/include/boost/range/result_iterator.hpp \
+ /usr/include/boost/range/const_reverse_iterator.hpp \
+ /usr/include/boost/range/reverse_result_iterator.hpp \
+ /usr/include/boost/range/value_type.hpp \
+ /usr/include/boost/range/category.hpp \
+ /usr/include/boost/range/reference.hpp \
+ /usr/include/boost/range/pointer.hpp \
+ /usr/include/boost/range/iterator_range.hpp \
+ /usr/include/boost/range/iterator_range_core.hpp \
+ /usr/include/boost/range/algorithm/equal.hpp \
+ /usr/include/boost/range/concepts.hpp \
+ /usr/include/boost/concept_check.hpp \
+ /usr/include/boost/concept/assert.hpp \
+ /usr/include/boost/concept/detail/general.hpp \
+ /usr/include/boost/concept/detail/backward_compatibility.hpp \
+ /usr/include/boost/concept/detail/has_constraints.hpp \
+ /usr/include/boost/type_traits/conversion_traits.hpp \
+ /usr/include/boost/concept/usage.hpp \
+ /usr/include/boost/concept/detail/concept_def.hpp \
+ /usr/include/boost/preprocessor/seq/for_each_i.hpp \
+ /usr/include/boost/preprocessor/repetition/for.hpp \
+ /usr/include/boost/preprocessor/repetition/detail/for.hpp \
+ /usr/include/boost/preprocessor/seq/seq.hpp \
+ /usr/include/boost/preprocessor/seq/elem.hpp \
+ /usr/include/boost/preprocessor/seq/size.hpp \
+ /usr/include/boost/preprocessor/seq/enum.hpp \
+ /usr/include/boost/concept/detail/concept_undef.hpp \
+ /usr/include/boost/iterator/iterator_concepts.hpp \
+ /usr/include/boost/limits.hpp \
+ /usr/include/boost/range/detail/misc_concept.hpp \
+ /usr/include/boost/range/detail/safe_bool.hpp \
+ /usr/include/boost/range/iterator_range_io.hpp \
+ /usr/include/boost/range/sub_range.hpp \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAxisAlignedBox.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreVector3.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMath.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreQuaternion.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMatrix4.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMatrix3.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreVector4.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePlane.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSphere.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowCaster.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderable.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCommon.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderOperation.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreVertexIndexData.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareVertexBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreException.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSharedPtr.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAtomicScalar.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePlatformInformation.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreColourValue.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareIndexBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMaterial.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreResource.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStringInterface.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadHeaders.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadHeadersBoost.h \
+ /usr/include/boost/thread/tss.hpp \
+ /usr/include/boost/thread/detail/config.hpp \
+ /usr/include/boost/thread/detail/platform.hpp \
+ /usr/include/boost/config/requires_threads.hpp \
+ /usr/include/boost/config/auto_link.hpp \
+ /usr/include/boost/shared_ptr.hpp \
+ /usr/include/boost/smart_ptr/shared_ptr.hpp \
+ /usr/include/boost/config/no_tr1/memory.hpp /usr/include/c++/4.8/memory \
+ /usr/include/c++/4.8/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.8/backward/auto_ptr.h \
+ /usr/include/boost/checked_delete.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/exception/detail/attribute_noreturn.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/smart_ptr/detail/shared_count.hpp \
+ /usr/include/boost/smart_ptr/bad_weak_ptr.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
+ /usr/include/boost/detail/sp_typeinfo.hpp /usr/include/c++/4.8/typeinfo \
+ /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /usr/include/boost/smart_ptr/detail/spinlock.hpp \
+ /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp \
+ /usr/include/boost/smart_ptr/detail/yield_k.hpp \
+ /usr/include/boost/memory_order.hpp \
+ /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
+ /usr/include/boost/thread/detail/thread_heap_alloc.hpp \
+ /usr/include/boost/thread/pthread/thread_heap_alloc.hpp \
+ /usr/include/boost/config/abi_prefix.hpp \
+ /usr/include/boost/config/abi_suffix.hpp \
+ /usr/include/boost/thread/recursive_mutex.hpp \
+ /usr/include/boost/thread/pthread/recursive_mutex.hpp \
+ /usr/include/boost/thread/exceptions.hpp /usr/include/c++/4.8/stdexcept \
+ /usr/include/boost/system/system_error.hpp \
+ /usr/include/boost/system/error_code.hpp \
+ /usr/include/boost/system/config.hpp \
+ /usr/include/boost/system/api_config.hpp /usr/include/boost/cstdint.hpp \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/boost/operators.hpp /usr/include/boost/noncopyable.hpp \
+ /usr/include/boost/cerrno.hpp /usr/include/c++/4.8/cerrno \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/boost/thread/lock_types.hpp \
+ /usr/include/boost/thread/detail/move.hpp \
+ /usr/include/boost/type_traits/decay.hpp \
+ /usr/include/boost/type_traits/remove_bounds.hpp \
  /usr/include/boost/thread/detail/delete.hpp \
  /usr/include/boost/move/utility.hpp \
  /usr/include/boost/move/detail/config_begin.hpp \
@@ -369,16 +522,8 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/move/detail/config_end.hpp \
  /usr/include/boost/move/traits.hpp \
  /usr/include/boost/type_traits/has_trivial_destructor.hpp \
- /usr/include/boost/type_traits/is_pod.hpp \
- /usr/include/boost/type_traits/is_scalar.hpp \
- /usr/include/boost/type_traits/is_enum.hpp \
- /usr/include/boost/type_traits/is_pointer.hpp \
- /usr/include/boost/type_traits/is_member_pointer.hpp \
- /usr/include/boost/type_traits/is_member_function_pointer.hpp \
- /usr/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
  /usr/include/boost/thread/lock_options.hpp \
  /usr/include/boost/thread/lockable_traits.hpp \
- /usr/include/boost/type_traits/is_class.hpp \
  /usr/include/boost/thread/thread_time.hpp \
  /usr/include/boost/date_time/time_clock.hpp \
  /usr/include/boost/date_time/c_time.hpp \
@@ -391,9 +536,8 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/date_time/posix_time/ptime.hpp \
  /usr/include/boost/date_time/posix_time/posix_time_system.hpp \
  /usr/include/boost/date_time/posix_time/posix_time_config.hpp \
- /usr/include/boost/limits.hpp /usr/include/boost/config/no_tr1/cmath.hpp \
+ /usr/include/boost/config/no_tr1/cmath.hpp \
  /usr/include/boost/date_time/time_duration.hpp \
- /usr/include/boost/static_assert.hpp \
  /usr/include/boost/date_time/time_defs.hpp \
  /usr/include/boost/date_time/special_defs.hpp \
  /usr/include/boost/date_time/time_resolution_traits.hpp \
@@ -445,16 +589,7 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/boost/mpl/logical.hpp /usr/include/boost/mpl/or.hpp \
- /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
- /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
- /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
- /usr/include/boost/mpl/aux_/config/compiler.hpp \
- /usr/include/boost/preprocessor/stringize.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
- /usr/include/boost/mpl/and.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
- /usr/include/boost/mpl/not.hpp /usr/include/boost/ratio/ratio.hpp \
+ /usr/include/boost/mpl/logical.hpp /usr/include/boost/ratio/ratio.hpp \
  /usr/include/boost/ratio/config.hpp \
  /usr/include/boost/ratio/detail/mpl/abs.hpp \
  /usr/include/boost/ratio/detail/mpl/sign.hpp \
@@ -471,7 +606,6 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/typeof/native.hpp \
  /usr/include/boost/utility/declval.hpp \
  /usr/include/boost/type_traits/is_floating_point.hpp \
- /usr/include/boost/type_traits/is_unsigned.hpp \
  /usr/include/boost/chrono/detail/is_evenly_divisible_by.hpp \
  /usr/include/boost/date_time/posix_time/conversion.hpp \
  /usr/include/boost/date_time/gregorian/conversion.hpp \
@@ -507,31 +641,23 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/type_traits/has_trivial_constructor.hpp \
  /usr/include/boost/type_traits/type_with_alignment.hpp \
  /usr/include/boost/preprocessor/list/for_each_i.hpp \
- /usr/include/boost/preprocessor/repetition/for.hpp \
- /usr/include/boost/preprocessor/repetition/detail/for.hpp \
  /usr/include/boost/preprocessor/tuple/to_list.hpp \
  /usr/include/boost/preprocessor/list/transform.hpp \
  /usr/include/boost/preprocessor/list/append.hpp \
  /usr/include/boost/detail/reference_content.hpp \
  /usr/include/boost/type_traits/has_nothrow_copy.hpp \
  /usr/include/boost/type_traits/has_trivial_copy.hpp \
- /usr/include/boost/mpl/void.hpp /usr/include/boost/none.hpp \
- /usr/include/boost/none_t.hpp /usr/include/boost/utility/swap.hpp \
- /usr/include/boost/utility/addressof.hpp \
+ /usr/include/boost/none.hpp /usr/include/boost/none_t.hpp \
+ /usr/include/boost/utility/swap.hpp \
  /usr/include/boost/utility/compare_pointees.hpp \
  /usr/include/boost/utility/in_place_factory.hpp \
  /usr/include/boost/utility/detail/in_place_factory_prefix.hpp \
  /usr/include/boost/preprocessor/punctuation/paren.hpp \
  /usr/include/boost/preprocessor/iteration/iterate.hpp \
- /usr/include/boost/preprocessor/array/elem.hpp \
- /usr/include/boost/preprocessor/array/data.hpp \
- /usr/include/boost/preprocessor/array/size.hpp \
  /usr/include/boost/preprocessor/slot/slot.hpp \
  /usr/include/boost/preprocessor/slot/detail/def.hpp \
  /usr/include/boost/preprocessor/repetition/enum.hpp \
- /usr/include/boost/preprocessor/repetition/enum_params.hpp \
  /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp \
- /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
  /usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp \
  /usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
  /usr/include/boost/preprocessor/slot/detail/shared.hpp \
@@ -580,241 +706,215 @@ OgreApp-BaseApplication.o: BaseApplication.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/pthread/shared_mutex.hpp \
  /usr/include/boost/thread/locks.hpp \
  /usr/include/boost/thread/lock_algorithms.hpp \
- /usr/local/include/OGRE/Threading/OgreThreadDefines.h \
- /usr/local/include/OGRE/Threading/OgreThreadDefinesBoost.h \
- /usr/local/include/OGRE/OgreGpuProgramParams.h \
- /usr/local/include/OGRE/OgreSharedPtr.h \
- /usr/local/include/OGRE/OgreIteratorWrappers.h \
- /usr/local/include/OGRE/OgreIteratorWrapper.h \
- /usr/local/include/OGRE/OgreIteratorRange.h /usr/include/boost/range.hpp \
- /usr/include/boost/range/functions.hpp \
- /usr/include/boost/range/begin.hpp /usr/include/boost/range/config.hpp \
- /usr/include/boost/range/iterator.hpp \
- /usr/include/boost/range/mutable_iterator.hpp \
- /usr/include/boost/range/detail/extract_optional_type.hpp \
- /usr/include/boost/iterator/iterator_traits.hpp \
- /usr/include/boost/detail/iterator.hpp \
- /usr/include/boost/range/const_iterator.hpp \
- /usr/include/boost/type_traits/remove_const.hpp \
- /usr/include/boost/type_traits/is_const.hpp \
- /usr/include/boost/range/end.hpp \
- /usr/include/boost/range/detail/implementation_help.hpp \
- /usr/include/boost/range/detail/common.hpp \
- /usr/include/boost/range/detail/sfinae.hpp \
- /usr/include/boost/range/size.hpp /usr/include/boost/range/size_type.hpp \
- /usr/include/boost/range/difference_type.hpp \
- /usr/include/boost/type_traits/make_unsigned.hpp \
- /usr/include/boost/type_traits/is_signed.hpp \
- /usr/include/boost/type_traits/add_const.hpp \
- /usr/include/boost/type_traits/add_volatile.hpp \
- /usr/include/boost/range/distance.hpp /usr/include/boost/range/empty.hpp \
- /usr/include/boost/range/rbegin.hpp \
- /usr/include/boost/range/reverse_iterator.hpp \
- /usr/include/boost/iterator/reverse_iterator.hpp \
- /usr/include/boost/next_prior.hpp \
- /usr/include/boost/iterator/iterator_adaptor.hpp \
- /usr/include/boost/iterator/iterator_categories.hpp \
- /usr/include/boost/iterator/detail/config_def.hpp \
- /usr/include/boost/mpl/placeholders.hpp /usr/include/boost/mpl/arg.hpp \
- /usr/include/boost/mpl/arg_fwd.hpp \
- /usr/include/boost/mpl/aux_/na_assert.hpp \
- /usr/include/boost/mpl/assert.hpp /usr/include/boost/mpl/aux_/yes_no.hpp \
- /usr/include/boost/mpl/aux_/config/arrays.hpp \
- /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
- /usr/include/boost/mpl/aux_/arity_spec.hpp \
- /usr/include/boost/mpl/aux_/arg_typedef.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
- /usr/include/boost/iterator/detail/config_undef.hpp \
- /usr/include/boost/iterator/iterator_facade.hpp \
- /usr/include/boost/iterator/interoperable.hpp \
- /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
- /usr/include/boost/detail/indirect_traits.hpp \
- /usr/include/boost/type_traits/remove_pointer.hpp \
- /usr/include/boost/iterator/detail/enable_if.hpp \
- /usr/include/boost/mpl/always.hpp /usr/include/boost/mpl/apply.hpp \
- /usr/include/boost/mpl/apply_fwd.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
- /usr/include/boost/mpl/apply_wrap.hpp \
- /usr/include/boost/mpl/aux_/has_apply.hpp \
- /usr/include/boost/mpl/has_xxx.hpp \
- /usr/include/boost/mpl/aux_/type_wrapper.hpp \
- /usr/include/boost/mpl/aux_/config/has_xxx.hpp \
- /usr/include/boost/mpl/aux_/config/msvc_typename.hpp \
- /usr/include/boost/mpl/aux_/config/has_apply.hpp \
- /usr/include/boost/mpl/aux_/msvc_never_true.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
- /usr/include/boost/mpl/lambda.hpp /usr/include/boost/mpl/bind.hpp \
- /usr/include/boost/mpl/bind_fwd.hpp \
- /usr/include/boost/mpl/aux_/config/bind.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
- /usr/include/boost/mpl/next.hpp /usr/include/boost/mpl/next_prior.hpp \
- /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
- /usr/include/boost/mpl/protect.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
- /usr/include/boost/mpl/aux_/full_lambda.hpp \
- /usr/include/boost/mpl/quote.hpp \
- /usr/include/boost/mpl/aux_/has_type.hpp \
- /usr/include/boost/mpl/aux_/config/bcc.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
- /usr/include/boost/mpl/aux_/template_arity.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
- /usr/include/boost/range/rend.hpp \
- /usr/include/boost/range/metafunctions.hpp \
- /usr/include/boost/range/has_range_iterator.hpp \
- /usr/include/boost/range/result_iterator.hpp \
- /usr/include/boost/range/const_reverse_iterator.hpp \
- /usr/include/boost/range/reverse_result_iterator.hpp \
- /usr/include/boost/range/value_type.hpp \
- /usr/include/boost/range/category.hpp \
- /usr/include/boost/range/reference.hpp \
- /usr/include/boost/range/pointer.hpp \
- /usr/include/boost/range/iterator_range.hpp \
- /usr/include/boost/range/iterator_range_core.hpp \
- /usr/include/boost/range/algorithm/equal.hpp \
- /usr/include/boost/range/concepts.hpp \
- /usr/include/boost/concept_check.hpp \
- /usr/include/boost/concept/assert.hpp \
- /usr/include/boost/concept/detail/general.hpp \
- /usr/include/boost/concept/detail/backward_compatibility.hpp \
- /usr/include/boost/concept/detail/has_constraints.hpp \
- /usr/include/boost/type_traits/conversion_traits.hpp \
- /usr/include/boost/concept/usage.hpp \
- /usr/include/boost/concept/detail/concept_def.hpp \
- /usr/include/boost/preprocessor/seq/for_each_i.hpp \
- /usr/include/boost/preprocessor/seq/seq.hpp \
- /usr/include/boost/preprocessor/seq/elem.hpp \
- /usr/include/boost/preprocessor/seq/size.hpp \
- /usr/include/boost/preprocessor/seq/enum.hpp \
- /usr/include/boost/concept/detail/concept_undef.hpp \
- /usr/include/boost/iterator/iterator_concepts.hpp \
- /usr/include/boost/range/detail/misc_concept.hpp \
- /usr/include/boost/range/detail/safe_bool.hpp \
- /usr/include/boost/range/iterator_range_io.hpp \
- /usr/include/boost/range/sub_range.hpp \
- /usr/local/include/OGRE/OgreSerializer.h \
- /usr/local/include/OGRE/OgreAny.h /usr/local/include/OGRE/OgreMaterial.h \
- /usr/local/include/OGRE/OgreColourValue.h \
- /usr/local/include/OGRE/OgreBlendMode.h \
- /usr/local/include/OGRE/OgreUserObjectBindings.h \
- /usr/local/include/OGRE/OgreRenderOperation.h \
- /usr/local/include/OGRE/OgreVertexIndexData.h \
- /usr/local/include/OGRE/OgreHardwareVertexBuffer.h \
- /usr/local/include/OGRE/OgreHardwareBuffer.h \
- /usr/local/include/OGRE/OgreHardwareIndexBuffer.h \
- /usr/local/include/OGRE/OgreAnimable.h \
- /usr/local/include/OGRE/OgreVector2.h \
- /usr/local/include/OGRE/OgreStringVector.h \
- /usr/local/include/OGRE/OgreEntity.h \
- /usr/local/include/OGRE/OgreHardwareBufferManager.h \
- /usr/local/include/OGRE/OgreSingleton.h \
- /usr/local/include/OGRE/OgreHardwareCounterBuffer.h \
- /usr/local/include/OGRE/OgreHardwareUniformBuffer.h \
- /usr/local/include/OGRE/OgreResourceGroupManager.h \
- /usr/local/include/OGRE/OgreDataStream.h \
- /usr/local/include/OGRE/OgreArchive.h \
- /usr/local/include/OGRE/OgreLogManager.h \
- /usr/local/include/OGRE/OgreLog.h /usr/local/include/OGRE/OgreRoot.h \
- /usr/local/include/OGRE/OgreSceneManagerEnumerator.h \
- /usr/local/include/OGRE/OgreSceneManager.h \
- /usr/local/include/OGRE/OgreSceneQuery.h \
- /usr/local/include/OGRE/OgreRay.h \
- /usr/local/include/OGRE/OgrePlaneBoundedVolume.h \
- /usr/local/include/OGRE/OgreAutoParamDataSource.h \
- /usr/local/include/OGRE/OgreLight.h \
- /usr/local/include/OGRE/OgreAnimationState.h \
- /usr/local/include/OGRE/OgreController.h \
- /usr/local/include/OGRE/OgreRenderQueue.h \
- /usr/local/include/OGRE/OgreRenderQueueSortingGrouping.h \
- /usr/local/include/OGRE/OgrePass.h \
- /usr/local/include/OGRE/OgreTextureUnitState.h \
- /usr/local/include/OGRE/OgreTexture.h \
- /usr/local/include/OGRE/OgreImage.h \
- /usr/local/include/OGRE/OgrePixelFormat.h \
- /usr/local/include/OGRE/OgreRadixSort.h \
- /usr/local/include/OGRE/OgreShadowTextureManager.h \
- /usr/local/include/OGRE/OgreInstanceManager.h \
- /usr/local/include/OGRE/OgreRenderSystem.h \
- /usr/local/include/OGRE/OgreRenderSystemCapabilities.h \
- /usr/local/include/OGRE/OgreStringConverter.h \
- /usr/local/include/OGRE/OgreConfigOptionMap.h \
- /usr/local/include/OGRE/OgreLodListener.h \
- /usr/local/include/OGRE/OgreNameGenerator.h \
- /usr/local/include/OGRE/OgreViewport.h \
- /usr/local/include/OGRE/OgreSceneManager.h \
- /usr/local/include/OGRE/OgreRenderWindow.h \
- /usr/local/include/OGRE/OgreRenderTarget.h \
- /usr/local/include/OGRE/OgreConfigFile.h \
- /usr/local/include/OGRE/OgreMaterialManager.h \
- /usr/local/include/OGRE/OgreResourceManager.h \
- /usr/local/include/OGRE/OgreScriptLoader.h \
- /usr/local/include/OGRE/OgreTextureManager.h \
- /usr/local/include/OGRE/OgreWindowEventUtilities.h \
- /usr/local/include/OGRE/OgreFrameListener.h /usr/include/ois/OISEvents.h \
- /usr/include/ois/OISPrereqs.h /usr/include/ois/OISConfig.h \
- /usr/include/ois/OISInputManager.h /usr/include/ois/OISKeyboard.h \
- /usr/include/ois/OISObject.h /usr/include/ois/OISInterface.h \
- /usr/include/ois/OISEvents.h /usr/include/ois/OISMouse.h \
- /usr/local/include/OGRE/SdkTrays.h \
- /usr/local/include/OGRE/Overlay/OgreOverlay.h \
- /usr/local/include/OGRE/Overlay/OgreOverlayPrerequisites.h \
- /usr/local/include/OGRE/OgrePrerequisites.h \
- /usr/local/include/OGRE/OgreIteratorWrappers.h \
- /usr/local/include/OGRE/OgreMatrix4.h \
- /usr/local/include/OGRE/Overlay/OgreOverlaySystem.h \
- /usr/local/include/OGRE/OgreRenderQueueListener.h \
- /usr/local/include/OGRE/Overlay/OgreOverlayManager.h \
- /usr/local/include/OGRE/OgreSingleton.h \
- /usr/local/include/OGRE/OgreStringVector.h \
- /usr/local/include/OGRE/OgreScriptLoader.h \
- /usr/local/include/OGRE/OgreFrustum.h \
- /usr/local/include/OGRE/Overlay/OgreBorderPanelOverlayElement.h \
- /usr/local/include/OGRE/Overlay/OgrePanelOverlayElement.h \
- /usr/local/include/OGRE/Overlay/OgreOverlayContainer.h \
- /usr/local/include/OGRE/Overlay/OgreOverlayElement.h \
- /usr/local/include/OGRE/OgreRenderable.h \
- /usr/local/include/OGRE/OgreUTFString.h \
- /usr/local/include/OGRE/OgreStringInterface.h \
- /usr/local/include/OGRE/Overlay/OgreOverlayElementCommands.h \
- /usr/local/include/OGRE/OgreColourValue.h \
- /usr/local/include/OGRE/OgreRenderOperation.h \
- /usr/local/include/OGRE/Overlay/OgreTextAreaOverlayElement.h \
- /usr/local/include/OGRE/Overlay/OgreFontManager.h \
- /usr/local/include/OGRE/OgreResourceManager.h \
- /usr/local/include/OGRE/Overlay/OgreFont.h \
- /usr/local/include/OGRE/OgreResource.h \
- /usr/local/include/OGRE/OgreCommon.h \
- /usr/local/include/OGRE/OgreSharedPtr.h \
- /usr/local/include/OGRE/OgreTimer.h \
- /usr/local/include/OGRE/OgrePOSIXTimerImp.h \
- /usr/local/include/OGRE/OgreRoot.h /usr/local/include/OGRE/OgreCamera.h \
- /usr/local/include/OGRE/OgreRenderWindow.h \
- /usr/local/include/OGRE/InputContext.h /usr/include/ois/OIS.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadDefines.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadDefinesBoost.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreBlendMode.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreGpuProgram.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSerializer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreDataStream.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreGpuProgramParams.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAny.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreUserObjectBindings.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreFactoryObj.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAnimable.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreVector2.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStringVector.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreFrustum.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMovablePlane.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRay.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePlaneBoundedVolume.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreEntity.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareBufferManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSingleton.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareCounterBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareUniformBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderToVertexBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMesh.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreVertexBoneAssignment.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSkeleton.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAnimation.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAnimationTrack.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSimpleSpline.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRotationalSpline.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreKeyFrame.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePose.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAnimationState.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreController.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreResourceGroupManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreArchive.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLogManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLog.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRoot.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSceneManagerEnumerator.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSceneManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSceneNode.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreNode.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSceneQuery.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreAutoParamDataSource.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLight.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetup.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueSortingGrouping.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTechnique.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePass.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTextureUnitState.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTexture.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreImage.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePixelFormat.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderSystemCapabilities.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStringConverter.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLogManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRadixSort.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRectangle2D.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSimpleRenderable.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowTextureManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCamera.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreInstancedGeometry.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSkeletonInstance.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreBone.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLodListener.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreInstanceManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderSystem.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMaterialManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreResourceManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreScriptLoader.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMaterialSerializer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderTarget.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTextureManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreViewport.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTimer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/GLX/OgreTimerImp.h \
+ /lusr/opt/ogre-1.9/include/OGRE/GLX/../OgrePrerequisites.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderTexture.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreFrameListener.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreConfigOptionMap.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreNameGenerator.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLodStrategyManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreLodStrategy.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreWorkQueue.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreViewport.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSceneManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderWindow.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreConfigFile.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMaterialManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTextureManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreWindowEventUtilities.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreFrameListener.h \
+ /usr/include/ois/OISEvents.h /usr/include/ois/OISPrereqs.h \
+ /usr/include/ois/OISConfig.h /usr/include/ois/OISInputManager.h \
+ /usr/include/ois/OISKeyboard.h /usr/include/ois/OISObject.h \
+ /usr/include/ois/OISInterface.h /usr/include/ois/OISEvents.h \
+ /usr/include/ois/OISMouse.h /lusr/opt/ogre-1.9/include/OGRE/SdkTrays.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Ogre.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreArchiveManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreBillboardChain.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreBillboardSet.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreConfigFile.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreControllerManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePredefinedControllers.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreEntity.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreGpuProgramManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwarePixelBuffer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHardwareOcclusionQuery.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHighLevelGpuProgram.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreHighLevelGpuProgramManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreInstanceBatch.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreInstancedEntity.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreManualObject.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMeshManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePatchMesh.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePatchSurface.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMeshSerializer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMeshSerializerImpl.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreEdgeListBuilder.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticleAffector.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticleEmitter.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticleEmitterCommands.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticle.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreBillboard.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticleSystemManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticleSystem.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreParticleIterator.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreProfiler.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueInvocation.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueListener.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderObjectListener.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderTargetListener.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderWindow.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreResourceBackgroundQueue.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRibbonTrail.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRoot.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSkeletonManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSkeletonSerializer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStaticGeometry.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSubEntity.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSubMesh.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositor.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositorManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositionTechnique.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositorChain.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositorInstance.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositionPass.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCompositionTargetPass.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreWindowEventUtilities.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupFocused.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePolygon.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreConvexBody.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupLiSPSM.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupPlaneOptimal.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupPSSM.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlaySystem.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlay.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayPrerequisites.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgrePrerequisites.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSceneNode.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreIteratorWrappers.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMatrix4.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayContainer.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayElement.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreString.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderable.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreUTFString.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStringInterface.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayElementCommands.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreColourValue.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreSingleton.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreStringVector.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreScriptLoader.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreFrustum.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreFontManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreResourceManager.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreFont.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreResource.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreTexture.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreMaterial.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreCommon.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreBorderPanelOverlayElement.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgrePanelOverlayElement.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreTextAreaOverlayElement.h \
+ /lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayElementFactory.h \
+ /lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueListener.h \
+ /lusr/opt/ogre-1.9/include/OGRE/InputContext.h /usr/include/ois/OIS.h \
  /usr/include/ois/OISMouse.h /usr/include/ois/OISKeyboard.h \
  /usr/include/ois/OISJoyStick.h /usr/include/ois/OISMultiTouch.h \
  /usr/include/ois/OISInputManager.h /usr/include/ois/OISFactoryCreator.h \
  /usr/include/ois/OISException.h /usr/include/ois/OISEffect.h \
- /usr/include/ois/OISForceFeedback.h /usr/include/c++/4.8/iomanip \
- /usr/local/include/OGRE/SdkCameraMan.h \
- /usr/local/include/OGRE/OgreSceneNode.h \
- /usr/local/include/OGRE/OgreNode.h \
- /usr/local/include/OGRE/OgreFrameListener.h
+ /usr/include/ois/OISForceFeedback.h \
+ /lusr/opt/ogre-1.9/include/OGRE/SdkCameraMan.h
 
 /usr/include/stdc-predef.h:
 
 BaseApplication.h:
 
-/usr/local/include/OGRE/OgreCamera.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreCamera.h:
 
-/usr/local/include/OGRE/OgrePrerequisites.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePrerequisites.h:
 
-/usr/local/include/OGRE/OgrePlatform.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePlatform.h:
 
-/usr/local/include/OGRE/OgreConfig.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreConfig.h:
 
-/usr/local/include/OGRE/OgreBuildSettings.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreBuildSettings.h:
 
 /usr/include/c++/4.8/string:
 
@@ -962,7 +1062,7 @@ BaseApplication.h:
 
 /usr/include/c++/4.8/bits/basic_string.tcc:
 
-/usr/local/include/OGRE/OgreStdHeaders.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreStdHeaders.h:
 
 /usr/include/c++/4.8/cassert:
 
@@ -1168,6 +1268,10 @@ BaseApplication.h:
 
 /usr/include/c++/4.8/bits/fstream.tcc:
 
+/usr/include/c++/4.8/iostream:
+
+/usr/include/c++/4.8/iomanip:
+
 /usr/include/c++/4.8/sstream:
 
 /usr/include/c++/4.8/bits/sstream.tcc:
@@ -1192,77 +1296,39 @@ BaseApplication.h:
 
 /usr/include/x86_64-linux-gnu/bits/dlfcn.h:
 
-/usr/local/include/OGRE/OgreMemoryAllocatorConfig.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMemoryAllocatorConfig.h:
 
-/usr/local/include/OGRE/OgreMemoryAllocatedObject.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMemoryAllocatedObject.h:
 
-/usr/local/include/OGRE/OgreHeaderPrefix.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHeaderPrefix.h:
 
-/usr/local/include/OGRE/OgreHeaderSuffix.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHeaderSuffix.h:
 
-/usr/local/include/OGRE/OgreMemorySTLAllocator.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMemorySTLAllocator.h:
 
-/usr/local/include/OGRE/OgreMemoryStdAlloc.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMemoryNedPooling.h:
 
-/usr/include/c++/4.8/memory:
+/lusr/opt/ogre-1.9/include/OGRE/OgreString.h:
 
-/usr/include/c++/4.8/bits/stl_raw_storage_iter.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMovableObject.h:
 
-/usr/include/c++/4.8/backward/auto_ptr.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueue.h:
 
-/usr/local/include/OGRE/OgreAlignedAllocator.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreIteratorWrappers.h:
 
-/usr/local/include/OGRE/OgreMemoryTracker.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreIteratorWrapper.h:
 
-/usr/local/include/OGRE/OgreCommon.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreIteratorRange.h:
 
-/usr/local/include/OGRE/OgreFrustum.h:
+/usr/include/boost/range.hpp:
 
-/usr/local/include/OGRE/OgreMovableObject.h:
+/usr/include/boost/range/functions.hpp:
 
-/usr/local/include/OGRE/OgreAxisAlignedBox.h:
+/usr/include/boost/range/begin.hpp:
 
-/usr/local/include/OGRE/OgreMatrix4.h:
+/usr/include/boost/range/config.hpp:
 
-/usr/local/include/OGRE/OgreMatrix3.h:
-
-/usr/local/include/OGRE/OgreVector3.h:
-
-/usr/local/include/OGRE/OgreQuaternion.h:
-
-/usr/local/include/OGRE/OgreMath.h:
-
-/usr/local/include/OGRE/OgreVector4.h:
-
-/usr/local/include/OGRE/OgrePlane.h:
-
-/usr/local/include/OGRE/OgreSphere.h:
-
-/usr/local/include/OGRE/OgreShadowCaster.h:
-
-/usr/local/include/OGRE/OgreRenderable.h:
-
-/usr/local/include/OGRE/OgreGpuProgram.h:
-
-/usr/local/include/OGRE/OgreResource.h:
-
-/usr/local/include/OGRE/OgreAtomicScalar.h:
-
-/usr/local/include/OGRE/OgreException.h:
-
-/usr/local/include/OGRE/OgreString.h:
-
-/usr/local/include/OGRE/OgrePlatformInformation.h:
-
-/usr/local/include/OGRE/OgreStringInterface.h:
-
-/usr/local/include/OGRE/Threading/OgreThreadHeaders.h:
-
-/usr/local/include/OGRE/Threading/OgreThreadHeadersBoost.h:
-
-/usr/include/boost/thread/tss.hpp:
-
-/usr/include/boost/thread/detail/config.hpp:
+/usr/include/boost/detail/workaround.hpp:
 
 /usr/include/boost/config.hpp:
 
@@ -1288,135 +1354,27 @@ BaseApplication.h:
 
 /usr/include/boost/config/suffix.hpp:
 
-/usr/include/boost/detail/workaround.hpp:
+/usr/include/boost/range/iterator.hpp:
 
-/usr/include/boost/thread/detail/platform.hpp:
+/usr/include/boost/range/mutable_iterator.hpp:
 
-/usr/include/boost/config/requires_threads.hpp:
+/usr/include/boost/range/detail/extract_optional_type.hpp:
 
-/usr/include/boost/config/auto_link.hpp:
+/usr/include/boost/iterator/iterator_traits.hpp:
 
-/usr/include/boost/shared_ptr.hpp:
-
-/usr/include/boost/smart_ptr/shared_ptr.hpp:
-
-/usr/include/boost/config/no_tr1/memory.hpp:
-
-/usr/include/boost/assert.hpp:
-
-/usr/include/c++/4.8/iostream:
-
-/usr/include/boost/current_function.hpp:
-
-/usr/include/boost/checked_delete.hpp:
-
-/usr/include/boost/throw_exception.hpp:
-
-/usr/include/boost/exception/detail/attribute_noreturn.hpp:
-
-/usr/include/boost/exception/exception.hpp:
-
-/usr/include/boost/smart_ptr/detail/shared_count.hpp:
-
-/usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_has_sync.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
-
-/usr/include/boost/detail/sp_typeinfo.hpp:
-
-/usr/include/c++/4.8/typeinfo:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
-
-/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
-
-/usr/include/boost/smart_ptr/detail/spinlock.hpp:
-
-/usr/include/boost/smart_ptr/detail/spinlock_sync.hpp:
-
-/usr/include/boost/smart_ptr/detail/yield_k.hpp:
-
-/usr/include/boost/memory_order.hpp:
-
-/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
-
-/usr/include/boost/thread/detail/thread_heap_alloc.hpp:
-
-/usr/include/boost/thread/pthread/thread_heap_alloc.hpp:
-
-/usr/include/boost/config/abi_prefix.hpp:
-
-/usr/include/boost/config/abi_suffix.hpp:
-
-/usr/include/boost/thread/recursive_mutex.hpp:
-
-/usr/include/boost/thread/pthread/recursive_mutex.hpp:
-
-/usr/include/boost/thread/exceptions.hpp:
-
-/usr/include/c++/4.8/stdexcept:
-
-/usr/include/boost/system/system_error.hpp:
-
-/usr/include/boost/system/error_code.hpp:
-
-/usr/include/boost/system/config.hpp:
-
-/usr/include/boost/system/api_config.hpp:
-
-/usr/include/boost/cstdint.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
-
-/usr/include/stdint.h:
-
-/usr/include/boost/operators.hpp:
-
-/usr/include/boost/iterator.hpp:
+/usr/include/boost/detail/iterator.hpp:
 
 /usr/include/c++/4.8/iterator:
 
 /usr/include/c++/4.8/bits/stream_iterator.h:
 
-/usr/include/boost/noncopyable.hpp:
+/usr/include/boost/range/const_iterator.hpp:
 
-/usr/include/boost/utility/enable_if.hpp:
+/usr/include/boost/type_traits/remove_const.hpp:
 
-/usr/include/boost/cerrno.hpp:
+/usr/include/boost/type_traits/is_volatile.hpp:
 
-/usr/include/c++/4.8/cerrno:
-
-/usr/include/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/boost/thread/lock_types.hpp:
-
-/usr/include/boost/thread/detail/move.hpp:
-
-/usr/include/boost/type_traits/is_convertible.hpp:
-
-/usr/include/boost/type_traits/intrinsics.hpp:
-
-/usr/include/boost/type_traits/config.hpp:
-
-/usr/include/boost/type_traits/is_same.hpp:
+/usr/include/boost/type_traits/detail/cv_traits_impl.hpp:
 
 /usr/include/boost/type_traits/detail/bool_trait_def.hpp:
 
@@ -1510,7 +1468,17 @@ BaseApplication.h:
 
 /usr/include/boost/type_traits/detail/bool_trait_undef.hpp:
 
+/usr/include/boost/type_traits/broken_compiler_spec.hpp:
+
+/usr/include/boost/type_traits/detail/type_trait_def.hpp:
+
+/usr/include/boost/type_traits/detail/type_trait_undef.hpp:
+
+/usr/include/boost/type_traits/is_const.hpp:
+
 /usr/include/boost/type_traits/is_reference.hpp:
+
+/usr/include/boost/type_traits/config.hpp:
 
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
@@ -1527,50 +1495,6 @@ BaseApplication.h:
 /usr/include/boost/type_traits/detail/ice_not.hpp:
 
 /usr/include/boost/type_traits/detail/ice_eq.hpp:
-
-/usr/include/boost/type_traits/is_volatile.hpp:
-
-/usr/include/boost/type_traits/detail/cv_traits_impl.hpp:
-
-/usr/include/boost/type_traits/is_array.hpp:
-
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/usr/include/boost/type_traits/is_integral.hpp:
-
-/usr/include/boost/type_traits/is_float.hpp:
-
-/usr/include/boost/type_traits/is_void.hpp:
-
-/usr/include/boost/type_traits/is_abstract.hpp:
-
-/usr/include/boost/type_traits/add_lvalue_reference.hpp:
-
-/usr/include/boost/type_traits/add_reference.hpp:
-
-/usr/include/boost/type_traits/detail/type_trait_def.hpp:
-
-/usr/include/boost/type_traits/detail/type_trait_undef.hpp:
-
-/usr/include/boost/type_traits/add_rvalue_reference.hpp:
-
-/usr/include/boost/type_traits/is_function.hpp:
-
-/usr/include/boost/type_traits/detail/false_result.hpp:
-
-/usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
-/usr/include/boost/type_traits/broken_compiler_spec.hpp:
-
-/usr/include/boost/type_traits/remove_cv.hpp:
-
-/usr/include/boost/type_traits/decay.hpp:
-
-/usr/include/boost/type_traits/remove_bounds.hpp:
-
-/usr/include/boost/type_traits/add_pointer.hpp:
 
 /usr/include/boost/mpl/eval_if.hpp:
 
@@ -1654,7 +1578,509 @@ BaseApplication.h:
 
 /usr/include/boost/preprocessor/arithmetic/sub.hpp:
 
+/usr/include/boost/range/end.hpp:
+
+/usr/include/boost/range/detail/implementation_help.hpp:
+
+/usr/include/boost/range/detail/common.hpp:
+
+/usr/include/boost/range/detail/sfinae.hpp:
+
+/usr/include/boost/type_traits/is_array.hpp:
+
+/usr/include/boost/type_traits/is_void.hpp:
+
+/usr/include/boost/type_traits/is_same.hpp:
+
+/usr/include/boost/range/size.hpp:
+
+/usr/include/boost/range/size_type.hpp:
+
+/usr/include/boost/range/difference_type.hpp:
+
+/usr/include/boost/utility/enable_if.hpp:
+
+/usr/include/boost/type_traits/make_unsigned.hpp:
+
+/usr/include/boost/type_traits/is_integral.hpp:
+
+/usr/include/boost/type_traits/is_signed.hpp:
+
+/usr/include/boost/type_traits/remove_cv.hpp:
+
+/usr/include/boost/type_traits/is_enum.hpp:
+
+/usr/include/boost/type_traits/intrinsics.hpp:
+
+/usr/include/boost/type_traits/is_unsigned.hpp:
+
+/usr/include/boost/type_traits/add_const.hpp:
+
+/usr/include/boost/type_traits/add_volatile.hpp:
+
+/usr/include/boost/static_assert.hpp:
+
+/usr/include/boost/assert.hpp:
+
+/usr/include/boost/current_function.hpp:
+
+/usr/include/boost/range/distance.hpp:
+
+/usr/include/boost/range/empty.hpp:
+
+/usr/include/boost/range/rbegin.hpp:
+
+/usr/include/boost/range/reverse_iterator.hpp:
+
+/usr/include/boost/iterator/reverse_iterator.hpp:
+
+/usr/include/boost/next_prior.hpp:
+
+/usr/include/boost/iterator.hpp:
+
+/usr/include/boost/iterator/iterator_adaptor.hpp:
+
+/usr/include/boost/iterator/iterator_categories.hpp:
+
+/usr/include/boost/iterator/detail/config_def.hpp:
+
 /usr/include/boost/mpl/identity.hpp:
+
+/usr/include/boost/mpl/placeholders.hpp:
+
+/usr/include/boost/mpl/arg.hpp:
+
+/usr/include/boost/mpl/arg_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/na_assert.hpp:
+
+/usr/include/boost/mpl/assert.hpp:
+
+/usr/include/boost/mpl/not.hpp:
+
+/usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+/usr/include/boost/mpl/aux_/yes_no.hpp:
+
+/usr/include/boost/mpl/aux_/config/arrays.hpp:
+
+/usr/include/boost/mpl/aux_/config/pp_counter.hpp:
+
+/usr/include/boost/mpl/aux_/arity_spec.hpp:
+
+/usr/include/boost/mpl/aux_/arg_typedef.hpp:
+
+/usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/usr/include/boost/mpl/aux_/config/compiler.hpp:
+
+/usr/include/boost/preprocessor/stringize.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+/usr/include/boost/type_traits/is_convertible.hpp:
+
+/usr/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/include/boost/type_traits/is_float.hpp:
+
+/usr/include/boost/type_traits/is_abstract.hpp:
+
+/usr/include/boost/type_traits/add_lvalue_reference.hpp:
+
+/usr/include/boost/type_traits/add_reference.hpp:
+
+/usr/include/boost/type_traits/add_rvalue_reference.hpp:
+
+/usr/include/boost/type_traits/is_function.hpp:
+
+/usr/include/boost/type_traits/detail/false_result.hpp:
+
+/usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+/usr/include/boost/iterator/detail/config_undef.hpp:
+
+/usr/include/boost/iterator/iterator_facade.hpp:
+
+/usr/include/boost/iterator/interoperable.hpp:
+
+/usr/include/boost/mpl/or.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/usr/include/boost/iterator/detail/facade_iterator_category.hpp:
+
+/usr/include/boost/mpl/and.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+/usr/include/boost/detail/indirect_traits.hpp:
+
+/usr/include/boost/type_traits/is_pointer.hpp:
+
+/usr/include/boost/type_traits/is_member_pointer.hpp:
+
+/usr/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/usr/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+/usr/include/boost/type_traits/is_class.hpp:
+
+/usr/include/boost/type_traits/remove_reference.hpp:
+
+/usr/include/boost/type_traits/remove_pointer.hpp:
+
+/usr/include/boost/iterator/detail/enable_if.hpp:
+
+/usr/include/boost/utility/addressof.hpp:
+
+/usr/include/boost/type_traits/add_pointer.hpp:
+
+/usr/include/boost/type_traits/is_pod.hpp:
+
+/usr/include/boost/type_traits/is_scalar.hpp:
+
+/usr/include/boost/mpl/always.hpp:
+
+/usr/include/boost/mpl/apply.hpp:
+
+/usr/include/boost/mpl/apply_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/usr/include/boost/mpl/apply_wrap.hpp:
+
+/usr/include/boost/mpl/aux_/has_apply.hpp:
+
+/usr/include/boost/mpl/has_xxx.hpp:
+
+/usr/include/boost/mpl/aux_/type_wrapper.hpp:
+
+/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+/usr/include/boost/preprocessor/array/elem.hpp:
+
+/usr/include/boost/preprocessor/array/data.hpp:
+
+/usr/include/boost/preprocessor/array/size.hpp:
+
+/usr/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/usr/include/boost/mpl/aux_/config/has_apply.hpp:
+
+/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/include/boost/mpl/lambda.hpp:
+
+/usr/include/boost/mpl/bind.hpp:
+
+/usr/include/boost/mpl/bind_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/config/bind.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+/usr/include/boost/mpl/next.hpp:
+
+/usr/include/boost/mpl/next_prior.hpp:
+
+/usr/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/usr/include/boost/mpl/protect.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+/usr/include/boost/mpl/aux_/full_lambda.hpp:
+
+/usr/include/boost/mpl/quote.hpp:
+
+/usr/include/boost/mpl/void.hpp:
+
+/usr/include/boost/mpl/aux_/has_type.hpp:
+
+/usr/include/boost/mpl/aux_/config/bcc.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/usr/include/boost/mpl/aux_/template_arity.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/usr/include/boost/range/rend.hpp:
+
+/usr/include/boost/range/metafunctions.hpp:
+
+/usr/include/boost/range/has_range_iterator.hpp:
+
+/usr/include/boost/range/result_iterator.hpp:
+
+/usr/include/boost/range/const_reverse_iterator.hpp:
+
+/usr/include/boost/range/reverse_result_iterator.hpp:
+
+/usr/include/boost/range/value_type.hpp:
+
+/usr/include/boost/range/category.hpp:
+
+/usr/include/boost/range/reference.hpp:
+
+/usr/include/boost/range/pointer.hpp:
+
+/usr/include/boost/range/iterator_range.hpp:
+
+/usr/include/boost/range/iterator_range_core.hpp:
+
+/usr/include/boost/range/algorithm/equal.hpp:
+
+/usr/include/boost/range/concepts.hpp:
+
+/usr/include/boost/concept_check.hpp:
+
+/usr/include/boost/concept/assert.hpp:
+
+/usr/include/boost/concept/detail/general.hpp:
+
+/usr/include/boost/concept/detail/backward_compatibility.hpp:
+
+/usr/include/boost/concept/detail/has_constraints.hpp:
+
+/usr/include/boost/type_traits/conversion_traits.hpp:
+
+/usr/include/boost/concept/usage.hpp:
+
+/usr/include/boost/concept/detail/concept_def.hpp:
+
+/usr/include/boost/preprocessor/seq/for_each_i.hpp:
+
+/usr/include/boost/preprocessor/repetition/for.hpp:
+
+/usr/include/boost/preprocessor/repetition/detail/for.hpp:
+
+/usr/include/boost/preprocessor/seq/seq.hpp:
+
+/usr/include/boost/preprocessor/seq/elem.hpp:
+
+/usr/include/boost/preprocessor/seq/size.hpp:
+
+/usr/include/boost/preprocessor/seq/enum.hpp:
+
+/usr/include/boost/concept/detail/concept_undef.hpp:
+
+/usr/include/boost/iterator/iterator_concepts.hpp:
+
+/usr/include/boost/limits.hpp:
+
+/usr/include/boost/range/detail/misc_concept.hpp:
+
+/usr/include/boost/range/detail/safe_bool.hpp:
+
+/usr/include/boost/range/iterator_range_io.hpp:
+
+/usr/include/boost/range/sub_range.hpp:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreAxisAlignedBox.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreVector3.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreMath.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreQuaternion.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreMatrix4.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreMatrix3.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreVector4.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgrePlane.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSphere.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowCaster.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderable.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCommon.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderOperation.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreVertexIndexData.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareVertexBuffer.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareBuffer.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreException.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSharedPtr.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreAtomicScalar.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgrePlatformInformation.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreColourValue.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareIndexBuffer.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreMaterial.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreResource.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreStringInterface.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadHeaders.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadHeadersBoost.h:
+
+/usr/include/boost/thread/tss.hpp:
+
+/usr/include/boost/thread/detail/config.hpp:
+
+/usr/include/boost/thread/detail/platform.hpp:
+
+/usr/include/boost/config/requires_threads.hpp:
+
+/usr/include/boost/config/auto_link.hpp:
+
+/usr/include/boost/shared_ptr.hpp:
+
+/usr/include/boost/smart_ptr/shared_ptr.hpp:
+
+/usr/include/boost/config/no_tr1/memory.hpp:
+
+/usr/include/c++/4.8/memory:
+
+/usr/include/c++/4.8/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.8/backward/auto_ptr.h:
+
+/usr/include/boost/checked_delete.hpp:
+
+/usr/include/boost/throw_exception.hpp:
+
+/usr/include/boost/exception/detail/attribute_noreturn.hpp:
+
+/usr/include/boost/exception/exception.hpp:
+
+/usr/include/boost/smart_ptr/detail/shared_count.hpp:
+
+/usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
+
+/usr/include/boost/detail/sp_typeinfo.hpp:
+
+/usr/include/c++/4.8/typeinfo:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock_sync.hpp:
+
+/usr/include/boost/smart_ptr/detail/yield_k.hpp:
+
+/usr/include/boost/memory_order.hpp:
+
+/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/usr/include/boost/thread/detail/thread_heap_alloc.hpp:
+
+/usr/include/boost/thread/pthread/thread_heap_alloc.hpp:
+
+/usr/include/boost/config/abi_prefix.hpp:
+
+/usr/include/boost/config/abi_suffix.hpp:
+
+/usr/include/boost/thread/recursive_mutex.hpp:
+
+/usr/include/boost/thread/pthread/recursive_mutex.hpp:
+
+/usr/include/boost/thread/exceptions.hpp:
+
+/usr/include/c++/4.8/stdexcept:
+
+/usr/include/boost/system/system_error.hpp:
+
+/usr/include/boost/system/error_code.hpp:
+
+/usr/include/boost/system/config.hpp:
+
+/usr/include/boost/system/api_config.hpp:
+
+/usr/include/boost/cstdint.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/boost/operators.hpp:
+
+/usr/include/boost/noncopyable.hpp:
+
+/usr/include/boost/cerrno.hpp:
+
+/usr/include/c++/4.8/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/boost/thread/lock_types.hpp:
+
+/usr/include/boost/thread/detail/move.hpp:
+
+/usr/include/boost/type_traits/decay.hpp:
+
+/usr/include/boost/type_traits/remove_bounds.hpp:
 
 /usr/include/boost/thread/detail/delete.hpp:
 
@@ -1672,25 +2098,9 @@ BaseApplication.h:
 
 /usr/include/boost/type_traits/has_trivial_destructor.hpp:
 
-/usr/include/boost/type_traits/is_pod.hpp:
-
-/usr/include/boost/type_traits/is_scalar.hpp:
-
-/usr/include/boost/type_traits/is_enum.hpp:
-
-/usr/include/boost/type_traits/is_pointer.hpp:
-
-/usr/include/boost/type_traits/is_member_pointer.hpp:
-
-/usr/include/boost/type_traits/is_member_function_pointer.hpp:
-
-/usr/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
-
 /usr/include/boost/thread/lock_options.hpp:
 
 /usr/include/boost/thread/lockable_traits.hpp:
-
-/usr/include/boost/type_traits/is_class.hpp:
 
 /usr/include/boost/thread/thread_time.hpp:
 
@@ -1716,13 +2126,9 @@ BaseApplication.h:
 
 /usr/include/boost/date_time/posix_time/posix_time_config.hpp:
 
-/usr/include/boost/limits.hpp:
-
 /usr/include/boost/config/no_tr1/cmath.hpp:
 
 /usr/include/boost/date_time/time_duration.hpp:
-
-/usr/include/boost/static_assert.hpp:
 
 /usr/include/boost/date_time/time_defs.hpp:
 
@@ -1830,26 +2236,6 @@ BaseApplication.h:
 
 /usr/include/boost/mpl/logical.hpp:
 
-/usr/include/boost/mpl/or.hpp:
-
-/usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
-
-/usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
-
-/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
-
-/usr/include/boost/mpl/aux_/config/compiler.hpp:
-
-/usr/include/boost/preprocessor/stringize.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
-
-/usr/include/boost/mpl/and.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
-/usr/include/boost/mpl/not.hpp:
-
 /usr/include/boost/ratio/ratio.hpp:
 
 /usr/include/boost/ratio/config.hpp:
@@ -1883,8 +2269,6 @@ BaseApplication.h:
 /usr/include/boost/utility/declval.hpp:
 
 /usr/include/boost/type_traits/is_floating_point.hpp:
-
-/usr/include/boost/type_traits/is_unsigned.hpp:
 
 /usr/include/boost/chrono/detail/is_evenly_divisible_by.hpp:
 
@@ -1960,10 +2344,6 @@ BaseApplication.h:
 
 /usr/include/boost/preprocessor/list/for_each_i.hpp:
 
-/usr/include/boost/preprocessor/repetition/for.hpp:
-
-/usr/include/boost/preprocessor/repetition/detail/for.hpp:
-
 /usr/include/boost/preprocessor/tuple/to_list.hpp:
 
 /usr/include/boost/preprocessor/list/transform.hpp:
@@ -1976,15 +2356,11 @@ BaseApplication.h:
 
 /usr/include/boost/type_traits/has_trivial_copy.hpp:
 
-/usr/include/boost/mpl/void.hpp:
-
 /usr/include/boost/none.hpp:
 
 /usr/include/boost/none_t.hpp:
 
 /usr/include/boost/utility/swap.hpp:
-
-/usr/include/boost/utility/addressof.hpp:
 
 /usr/include/boost/utility/compare_pointees.hpp:
 
@@ -1996,23 +2372,13 @@ BaseApplication.h:
 
 /usr/include/boost/preprocessor/iteration/iterate.hpp:
 
-/usr/include/boost/preprocessor/array/elem.hpp:
-
-/usr/include/boost/preprocessor/array/data.hpp:
-
-/usr/include/boost/preprocessor/array/size.hpp:
-
 /usr/include/boost/preprocessor/slot/slot.hpp:
 
 /usr/include/boost/preprocessor/slot/detail/def.hpp:
 
 /usr/include/boost/preprocessor/repetition/enum.hpp:
 
-/usr/include/boost/preprocessor/repetition/enum_params.hpp:
-
 /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
-
-/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
 
 /usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
 
@@ -2126,373 +2492,191 @@ BaseApplication.h:
 
 /usr/include/boost/thread/lock_algorithms.hpp:
 
-/usr/local/include/OGRE/Threading/OgreThreadDefines.h:
+/lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadDefines.h:
 
-/usr/local/include/OGRE/Threading/OgreThreadDefinesBoost.h:
+/lusr/opt/ogre-1.9/include/OGRE/Threading/OgreThreadDefinesBoost.h:
 
-/usr/local/include/OGRE/OgreGpuProgramParams.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreBlendMode.h:
 
-/usr/local/include/OGRE/OgreSharedPtr.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreGpuProgram.h:
 
-/usr/local/include/OGRE/OgreIteratorWrappers.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSerializer.h:
 
-/usr/local/include/OGRE/OgreIteratorWrapper.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreDataStream.h:
 
-/usr/local/include/OGRE/OgreIteratorRange.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreGpuProgramParams.h:
 
-/usr/include/boost/range.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreAny.h:
 
-/usr/include/boost/range/functions.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreUserObjectBindings.h:
 
-/usr/include/boost/range/begin.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreFactoryObj.h:
 
-/usr/include/boost/range/config.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreAnimable.h:
 
-/usr/include/boost/range/iterator.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreVector2.h:
 
-/usr/include/boost/range/mutable_iterator.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreStringVector.h:
 
-/usr/include/boost/range/detail/extract_optional_type.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreFrustum.h:
 
-/usr/include/boost/iterator/iterator_traits.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMovablePlane.h:
 
-/usr/include/boost/detail/iterator.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRay.h:
 
-/usr/include/boost/range/const_iterator.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePlaneBoundedVolume.h:
 
-/usr/include/boost/type_traits/remove_const.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreEntity.h:
 
-/usr/include/boost/type_traits/is_const.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareBufferManager.h:
 
-/usr/include/boost/range/end.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSingleton.h:
 
-/usr/include/boost/range/detail/implementation_help.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareCounterBuffer.h:
 
-/usr/include/boost/range/detail/common.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareUniformBuffer.h:
 
-/usr/include/boost/range/detail/sfinae.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderToVertexBuffer.h:
 
-/usr/include/boost/range/size.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMesh.h:
 
-/usr/include/boost/range/size_type.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreVertexBoneAssignment.h:
 
-/usr/include/boost/range/difference_type.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSkeleton.h:
 
-/usr/include/boost/type_traits/make_unsigned.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreAnimation.h:
 
-/usr/include/boost/type_traits/is_signed.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreAnimationTrack.h:
 
-/usr/include/boost/type_traits/add_const.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSimpleSpline.h:
 
-/usr/include/boost/type_traits/add_volatile.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRotationalSpline.h:
 
-/usr/include/boost/range/distance.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreKeyFrame.h:
 
-/usr/include/boost/range/empty.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePose.h:
 
-/usr/include/boost/range/rbegin.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreAnimationState.h:
 
-/usr/include/boost/range/reverse_iterator.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreController.h:
 
-/usr/include/boost/iterator/reverse_iterator.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreResourceGroupManager.h:
 
-/usr/include/boost/next_prior.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreArchive.h:
 
-/usr/include/boost/iterator/iterator_adaptor.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLogManager.h:
 
-/usr/include/boost/iterator/iterator_categories.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLog.h:
 
-/usr/include/boost/iterator/detail/config_def.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRoot.h:
 
-/usr/include/boost/mpl/placeholders.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSceneManagerEnumerator.h:
 
-/usr/include/boost/mpl/arg.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSceneManager.h:
 
-/usr/include/boost/mpl/arg_fwd.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSceneNode.h:
 
-/usr/include/boost/mpl/aux_/na_assert.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreNode.h:
 
-/usr/include/boost/mpl/assert.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSceneQuery.h:
 
-/usr/include/boost/mpl/aux_/yes_no.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreAutoParamDataSource.h:
 
-/usr/include/boost/mpl/aux_/config/arrays.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLight.h:
 
-/usr/include/boost/mpl/aux_/config/pp_counter.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetup.h:
 
-/usr/include/boost/mpl/aux_/arity_spec.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueSortingGrouping.h:
 
-/usr/include/boost/mpl/aux_/arg_typedef.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreTechnique.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePass.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreTextureUnitState.h:
 
-/usr/include/boost/iterator/detail/config_undef.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreTexture.h:
 
-/usr/include/boost/iterator/iterator_facade.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreImage.h:
 
-/usr/include/boost/iterator/interoperable.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePixelFormat.h:
 
-/usr/include/boost/iterator/detail/facade_iterator_category.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderSystemCapabilities.h:
 
-/usr/include/boost/detail/indirect_traits.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreStringConverter.h:
 
-/usr/include/boost/type_traits/remove_pointer.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLogManager.h:
 
-/usr/include/boost/iterator/detail/enable_if.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRadixSort.h:
 
-/usr/include/boost/mpl/always.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRectangle2D.h:
 
-/usr/include/boost/mpl/apply.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSimpleRenderable.h:
 
-/usr/include/boost/mpl/apply_fwd.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowTextureManager.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreCamera.h:
 
-/usr/include/boost/mpl/apply_wrap.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreInstancedGeometry.h:
 
-/usr/include/boost/mpl/aux_/has_apply.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSkeletonInstance.h:
 
-/usr/include/boost/mpl/has_xxx.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreBone.h:
 
-/usr/include/boost/mpl/aux_/type_wrapper.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLodListener.h:
 
-/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreInstanceManager.h:
 
-/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderSystem.h:
 
-/usr/include/boost/mpl/aux_/config/has_apply.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMaterialManager.h:
 
-/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreResourceManager.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreScriptLoader.h:
 
-/usr/include/boost/mpl/lambda.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMaterialSerializer.h:
 
-/usr/include/boost/mpl/bind.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderTarget.h:
 
-/usr/include/boost/mpl/bind_fwd.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreTextureManager.h:
 
-/usr/include/boost/mpl/aux_/config/bind.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreViewport.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreTimer.h:
 
-/usr/include/boost/mpl/next.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/GLX/OgreTimerImp.h:
 
-/usr/include/boost/mpl/next_prior.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/GLX/../OgrePrerequisites.h:
 
-/usr/include/boost/mpl/aux_/common_name_wknd.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderTexture.h:
 
-/usr/include/boost/mpl/protect.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreFrameListener.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreConfigOptionMap.h:
 
-/usr/include/boost/mpl/aux_/full_lambda.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreNameGenerator.h:
 
-/usr/include/boost/mpl/quote.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLodStrategyManager.h:
 
-/usr/include/boost/mpl/aux_/has_type.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreLodStrategy.h:
 
-/usr/include/boost/mpl/aux_/config/bcc.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreWorkQueue.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreViewport.h:
 
-/usr/include/boost/mpl/aux_/template_arity.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreSceneManager.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderWindow.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreConfigFile.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMaterialManager.h:
 
-/usr/include/boost/range/rend.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreTextureManager.h:
 
-/usr/include/boost/range/metafunctions.hpp:
+/lusr/opt/ogre-1.9/include/OGRE/OgreWindowEventUtilities.h:
 
-/usr/include/boost/range/has_range_iterator.hpp:
-
-/usr/include/boost/range/result_iterator.hpp:
-
-/usr/include/boost/range/const_reverse_iterator.hpp:
-
-/usr/include/boost/range/reverse_result_iterator.hpp:
-
-/usr/include/boost/range/value_type.hpp:
-
-/usr/include/boost/range/category.hpp:
-
-/usr/include/boost/range/reference.hpp:
-
-/usr/include/boost/range/pointer.hpp:
-
-/usr/include/boost/range/iterator_range.hpp:
-
-/usr/include/boost/range/iterator_range_core.hpp:
-
-/usr/include/boost/range/algorithm/equal.hpp:
-
-/usr/include/boost/range/concepts.hpp:
-
-/usr/include/boost/concept_check.hpp:
-
-/usr/include/boost/concept/assert.hpp:
-
-/usr/include/boost/concept/detail/general.hpp:
-
-/usr/include/boost/concept/detail/backward_compatibility.hpp:
-
-/usr/include/boost/concept/detail/has_constraints.hpp:
-
-/usr/include/boost/type_traits/conversion_traits.hpp:
-
-/usr/include/boost/concept/usage.hpp:
-
-/usr/include/boost/concept/detail/concept_def.hpp:
-
-/usr/include/boost/preprocessor/seq/for_each_i.hpp:
-
-/usr/include/boost/preprocessor/seq/seq.hpp:
-
-/usr/include/boost/preprocessor/seq/elem.hpp:
-
-/usr/include/boost/preprocessor/seq/size.hpp:
-
-/usr/include/boost/preprocessor/seq/enum.hpp:
-
-/usr/include/boost/concept/detail/concept_undef.hpp:
-
-/usr/include/boost/iterator/iterator_concepts.hpp:
-
-/usr/include/boost/range/detail/misc_concept.hpp:
-
-/usr/include/boost/range/detail/safe_bool.hpp:
-
-/usr/include/boost/range/iterator_range_io.hpp:
-
-/usr/include/boost/range/sub_range.hpp:
-
-/usr/local/include/OGRE/OgreSerializer.h:
-
-/usr/local/include/OGRE/OgreAny.h:
-
-/usr/local/include/OGRE/OgreMaterial.h:
-
-/usr/local/include/OGRE/OgreColourValue.h:
-
-/usr/local/include/OGRE/OgreBlendMode.h:
-
-/usr/local/include/OGRE/OgreUserObjectBindings.h:
-
-/usr/local/include/OGRE/OgreRenderOperation.h:
-
-/usr/local/include/OGRE/OgreVertexIndexData.h:
-
-/usr/local/include/OGRE/OgreHardwareVertexBuffer.h:
-
-/usr/local/include/OGRE/OgreHardwareBuffer.h:
-
-/usr/local/include/OGRE/OgreHardwareIndexBuffer.h:
-
-/usr/local/include/OGRE/OgreAnimable.h:
-
-/usr/local/include/OGRE/OgreVector2.h:
-
-/usr/local/include/OGRE/OgreStringVector.h:
-
-/usr/local/include/OGRE/OgreEntity.h:
-
-/usr/local/include/OGRE/OgreHardwareBufferManager.h:
-
-/usr/local/include/OGRE/OgreSingleton.h:
-
-/usr/local/include/OGRE/OgreHardwareCounterBuffer.h:
-
-/usr/local/include/OGRE/OgreHardwareUniformBuffer.h:
-
-/usr/local/include/OGRE/OgreResourceGroupManager.h:
-
-/usr/local/include/OGRE/OgreDataStream.h:
-
-/usr/local/include/OGRE/OgreArchive.h:
-
-/usr/local/include/OGRE/OgreLogManager.h:
-
-/usr/local/include/OGRE/OgreLog.h:
-
-/usr/local/include/OGRE/OgreRoot.h:
-
-/usr/local/include/OGRE/OgreSceneManagerEnumerator.h:
-
-/usr/local/include/OGRE/OgreSceneManager.h:
-
-/usr/local/include/OGRE/OgreSceneQuery.h:
-
-/usr/local/include/OGRE/OgreRay.h:
-
-/usr/local/include/OGRE/OgrePlaneBoundedVolume.h:
-
-/usr/local/include/OGRE/OgreAutoParamDataSource.h:
-
-/usr/local/include/OGRE/OgreLight.h:
-
-/usr/local/include/OGRE/OgreAnimationState.h:
-
-/usr/local/include/OGRE/OgreController.h:
-
-/usr/local/include/OGRE/OgreRenderQueue.h:
-
-/usr/local/include/OGRE/OgreRenderQueueSortingGrouping.h:
-
-/usr/local/include/OGRE/OgrePass.h:
-
-/usr/local/include/OGRE/OgreTextureUnitState.h:
-
-/usr/local/include/OGRE/OgreTexture.h:
-
-/usr/local/include/OGRE/OgreImage.h:
-
-/usr/local/include/OGRE/OgrePixelFormat.h:
-
-/usr/local/include/OGRE/OgreRadixSort.h:
-
-/usr/local/include/OGRE/OgreShadowTextureManager.h:
-
-/usr/local/include/OGRE/OgreInstanceManager.h:
-
-/usr/local/include/OGRE/OgreRenderSystem.h:
-
-/usr/local/include/OGRE/OgreRenderSystemCapabilities.h:
-
-/usr/local/include/OGRE/OgreStringConverter.h:
-
-/usr/local/include/OGRE/OgreConfigOptionMap.h:
-
-/usr/local/include/OGRE/OgreLodListener.h:
-
-/usr/local/include/OGRE/OgreNameGenerator.h:
-
-/usr/local/include/OGRE/OgreViewport.h:
-
-/usr/local/include/OGRE/OgreSceneManager.h:
-
-/usr/local/include/OGRE/OgreRenderWindow.h:
-
-/usr/local/include/OGRE/OgreRenderTarget.h:
-
-/usr/local/include/OGRE/OgreConfigFile.h:
-
-/usr/local/include/OGRE/OgreMaterialManager.h:
-
-/usr/local/include/OGRE/OgreResourceManager.h:
-
-/usr/local/include/OGRE/OgreScriptLoader.h:
-
-/usr/local/include/OGRE/OgreTextureManager.h:
-
-/usr/local/include/OGRE/OgreWindowEventUtilities.h:
-
-/usr/local/include/OGRE/OgreFrameListener.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreFrameListener.h:
 
 /usr/include/ois/OISEvents.h:
 
@@ -2512,77 +2696,189 @@ BaseApplication.h:
 
 /usr/include/ois/OISMouse.h:
 
-/usr/local/include/OGRE/SdkTrays.h:
+/lusr/opt/ogre-1.9/include/OGRE/SdkTrays.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlay.h:
+/lusr/opt/ogre-1.9/include/OGRE/Ogre.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlayPrerequisites.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreArchiveManager.h:
 
-/usr/local/include/OGRE/OgrePrerequisites.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreBillboardChain.h:
 
-/usr/local/include/OGRE/OgreIteratorWrappers.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreBillboardSet.h:
 
-/usr/local/include/OGRE/OgreMatrix4.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreConfigFile.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlaySystem.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreControllerManager.h:
 
-/usr/local/include/OGRE/OgreRenderQueueListener.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePredefinedControllers.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlayManager.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreEntity.h:
 
-/usr/local/include/OGRE/OgreSingleton.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreGpuProgramManager.h:
 
-/usr/local/include/OGRE/OgreStringVector.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwarePixelBuffer.h:
 
-/usr/local/include/OGRE/OgreScriptLoader.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHardwareOcclusionQuery.h:
 
-/usr/local/include/OGRE/OgreFrustum.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHighLevelGpuProgram.h:
 
-/usr/local/include/OGRE/Overlay/OgreBorderPanelOverlayElement.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreHighLevelGpuProgramManager.h:
 
-/usr/local/include/OGRE/Overlay/OgrePanelOverlayElement.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreInstanceBatch.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlayContainer.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreInstancedEntity.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlayElement.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreManualObject.h:
 
-/usr/local/include/OGRE/OgreRenderable.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMeshManager.h:
 
-/usr/local/include/OGRE/OgreUTFString.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePatchMesh.h:
 
-/usr/local/include/OGRE/OgreStringInterface.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgrePatchSurface.h:
 
-/usr/local/include/OGRE/Overlay/OgreOverlayElementCommands.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMeshSerializer.h:
 
-/usr/local/include/OGRE/OgreColourValue.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreMeshSerializerImpl.h:
 
-/usr/local/include/OGRE/OgreRenderOperation.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreEdgeListBuilder.h:
 
-/usr/local/include/OGRE/Overlay/OgreTextAreaOverlayElement.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticleAffector.h:
 
-/usr/local/include/OGRE/Overlay/OgreFontManager.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticleEmitter.h:
 
-/usr/local/include/OGRE/OgreResourceManager.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticleEmitterCommands.h:
 
-/usr/local/include/OGRE/Overlay/OgreFont.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticle.h:
 
-/usr/local/include/OGRE/OgreResource.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreBillboard.h:
 
-/usr/local/include/OGRE/OgreCommon.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticleSystemManager.h:
 
-/usr/local/include/OGRE/OgreSharedPtr.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticleSystem.h:
 
-/usr/local/include/OGRE/OgreTimer.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreParticleIterator.h:
 
-/usr/local/include/OGRE/OgrePOSIXTimerImp.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreProfiler.h:
 
-/usr/local/include/OGRE/OgreRoot.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueInvocation.h:
 
-/usr/local/include/OGRE/OgreCamera.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueListener.h:
 
-/usr/local/include/OGRE/OgreRenderWindow.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderObjectListener.h:
 
-/usr/local/include/OGRE/InputContext.h:
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderTargetListener.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderWindow.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreResourceBackgroundQueue.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRibbonTrail.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRoot.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSkeletonManager.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSkeletonSerializer.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreStaticGeometry.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSubEntity.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSubMesh.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositor.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositorManager.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositionTechnique.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositorChain.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositorInstance.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositionPass.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCompositionTargetPass.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreWindowEventUtilities.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupFocused.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgrePolygon.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreConvexBody.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupLiSPSM.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupPlaneOptimal.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreShadowCameraSetupPSSM.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlaySystem.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlay.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayPrerequisites.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgrePrerequisites.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSceneNode.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreIteratorWrappers.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreMatrix4.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayContainer.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayElement.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreString.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderable.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreUTFString.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreStringInterface.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayElementCommands.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreColourValue.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayManager.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreSingleton.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreStringVector.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreScriptLoader.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreFrustum.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreFontManager.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreResourceManager.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreFont.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreResource.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreTexture.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreMaterial.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreCommon.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreBorderPanelOverlayElement.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgrePanelOverlayElement.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreTextAreaOverlayElement.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/Overlay/OgreOverlayElementFactory.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/OgreRenderQueueListener.h:
+
+/lusr/opt/ogre-1.9/include/OGRE/InputContext.h:
 
 /usr/include/ois/OIS.h:
 
@@ -2604,12 +2900,4 @@ BaseApplication.h:
 
 /usr/include/ois/OISForceFeedback.h:
 
-/usr/include/c++/4.8/iomanip:
-
-/usr/local/include/OGRE/SdkCameraMan.h:
-
-/usr/local/include/OGRE/OgreSceneNode.h:
-
-/usr/local/include/OGRE/OgreNode.h:
-
-/usr/local/include/OGRE/OgreFrameListener.h:
+/lusr/opt/ogre-1.9/include/OGRE/SdkCameraMan.h:
