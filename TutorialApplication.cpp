@@ -35,24 +35,22 @@ void TutorialApplication::createScene(void)
     mSceneMgr->setSkyBox(true, "Examples/MorningSkyBox", 5000, false);
 
     PlayingField* bCourt = new PlayingField(mSceneMgr);
-    Ball* ball = new Ball(mSceneMgr);
+    ball = new Ball(mSceneMgr);
     ball->setPlayingField(bCourt);
 
     // Everything else
 
-    
-
-    Ogre::Light* directionalLight = mSceneMgr->createLight("DirectionalLight");
+    /*Ogre::Light* directionalLight = mSceneMgr->createLight("DirectionalLight");
     directionalLight->setType(Ogre::Light::LT_DIRECTIONAL);
-    directionalLight->setDiffuseColour(Ogre::ColourValue(1,.6,.6));
-    directionalLight->setSpecularColour(Ogre::ColourValue(1,1,1));
-    directionalLight->setDirection(Ogre::Vector3(0,-.75,-.75));
+    directionalLight->setDiffuseColour(Ogre::ColourValue(.3,.2,.6));
+    directionalLight->setSpecularColour(Ogre::ColourValue(.1,.1,.1));
+    directionalLight->setDirection(Ogre::Vector3(0,-1,0));*/
 
     Ogre::Light* pointLight = mSceneMgr->createLight("PointLight");
     pointLight->setType(Ogre::Light::LT_POINT);
-    pointLight->setDiffuseColour(.6,.6,1);
+    pointLight->setDiffuseColour(1,1,1);
     pointLight->setSpecularColour(1,1,1);
-    pointLight->setPosition(Ogre::Vector3(0,15,25));
+    pointLight->setPosition(Ogre::Vector3(0,30,0));
 
     // NINJA SECTION
 
@@ -128,7 +126,7 @@ void TutorialApplication::createScene(void)
 void TutorialApplication::createCamera()
 {
     mCamera = mSceneMgr->createCamera("PlayerCam");
-    mCamera->setPosition(Ogre::Vector3(0,0,50));
+    mCamera->setPosition(Ogre::Vector3(0,0,40));
     mCamera->lookAt(Ogre::Vector3(0,0,0));
     mCamera->setNearClipDistance(5);
     mCamera->setFOVy(Ogre::Degree(90));
@@ -146,9 +144,46 @@ void TutorialApplication::createViewports()
         Ogre::Real(vp->getActualHeight()));
 }
 
+bool TutorialApplication::frameRenderingQueued(const Ogre::FrameEvent& evt)
+{
+    if(mWindow->isClosed())
+        return false;
+
+    if(mShutDown)
+        return false;
+
+    // Need to capture/update each device
+    mKeyboard->capture();
+    mMouse->capture();
+
+    mTrayMgr->frameRenderingQueued(evt);
+
+    if (!mTrayMgr->isDialogVisible())
+    {
+        mCameraMan->frameRenderingQueued(evt);   // If dialog isn't up, then update the camera
+        if (mDetailsPanel->isVisible())          // If details panel is visible, then update its contents
+        {
+            mDetailsPanel->setParamValue(0, Ogre::StringConverter::toString(mCamera->getDerivedPosition().x));
+            mDetailsPanel->setParamValue(1, Ogre::StringConverter::toString(mCamera->getDerivedPosition().y));
+            mDetailsPanel->setParamValue(2, Ogre::StringConverter::toString(mCamera->getDerivedPosition().z));
+            mDetailsPanel->setParamValue(4, Ogre::StringConverter::toString(mCamera->getDerivedOrientation().w));
+            mDetailsPanel->setParamValue(5, Ogre::StringConverter::toString(mCamera->getDerivedOrientation().x));
+            mDetailsPanel->setParamValue(6, Ogre::StringConverter::toString(mCamera->getDerivedOrientation().y));
+            mDetailsPanel->setParamValue(7, Ogre::StringConverter::toString(mCamera->getDerivedOrientation().z));
+        }
+        // Move the ball
+        ball->move(evt);
+    }
+
+    return true;
+}
+
 PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
 
     // Create room
+    height = 100;
+    length = 100;
+    width  = 100;
 
     Ogre::Plane plane(Ogre::Vector3::UNIT_Y, -50);
     Ogre::MeshManager::getSingleton().createPlane( "ground",
@@ -160,6 +195,7 @@ PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
         Ogre::Vector3::UNIT_Z);
     Ogre::Entity* groundEntity = scnMgr->createEntity("ground");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(groundEntity);
+    groundEntity->setMaterialName("Examples/BumpyMetal");
 
     Ogre::Plane plane2(Ogre::Vector3::NEGATIVE_UNIT_Y, -50);
     Ogre::MeshManager::getSingleton().createPlane( "roof",
@@ -171,6 +207,7 @@ PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
         Ogre::Vector3::UNIT_Z);
     Ogre::Entity* roofEntity = scnMgr->createEntity("roof");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(roofEntity);
+    roofEntity->setMaterialName("Examples/BumpyMetal");
 
     Ogre::Plane plane3(Ogre::Vector3::UNIT_Z, -50);
     Ogre::MeshManager::getSingleton().createPlane( "wall1",
@@ -182,6 +219,7 @@ PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
         Ogre::Vector3::UNIT_Y);
     Ogre::Entity* wall1Entity = scnMgr->createEntity("wall1");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall1Entity);
+    wall1Entity->setMaterialName("Examples/BumpyMetal");
 
     Ogre::Plane plane4(Ogre::Vector3::NEGATIVE_UNIT_Z, -50);
     Ogre::MeshManager::getSingleton().createPlane( "wall2",
@@ -193,6 +231,7 @@ PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
         Ogre::Vector3::UNIT_Y);
     Ogre::Entity* wall2Entity = scnMgr->createEntity("wall2");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall2Entity);
+    wall2Entity->setMaterialName("Examples/BumpyMetal");
 
     Ogre::Plane plane5(Ogre::Vector3::UNIT_X, -50);
     Ogre::MeshManager::getSingleton().createPlane( "wall3",
@@ -204,6 +243,7 @@ PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
         Ogre::Vector3::UNIT_Z);
     Ogre::Entity* wall3Entity = scnMgr->createEntity("wall3");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall3Entity);
+    wall3Entity->setMaterialName("Examples/BumpyMetal");
 
     Ogre::Plane plane6(Ogre::Vector3::NEGATIVE_UNIT_X, -50);
     Ogre::MeshManager::getSingleton().createPlane( "wall4",
@@ -215,24 +255,39 @@ PlayingField::PlayingField(Ogre::SceneManager* scnMgr) {
         Ogre::Vector3::UNIT_Z);
     Ogre::Entity* wall4Entity = scnMgr->createEntity("wall4");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(wall4Entity);
-}
-PlayingField::~PlayingField() {
-
+    wall4Entity->setMaterialName("Examples/BumpyMetal");
 }
 
 Ball::Ball(Ogre::SceneManager* scnMgr) {
-    Ogre::Entity* sphereEntity = scnMgr->createEntity("sphere.mesh");
-    sphereEntity->setCastShadows(true);
-    Ogre::SceneNode* sphereNode = scnMgr->getRootSceneNode()->createChildSceneNode();
-    sphereNode->attachObject(sphereEntity);
-    sphereNode->setScale(0.05,0.05,0.05);
+    Ogre::Entity* ball = scnMgr->createEntity("Sphere", "sphere.mesh");
+    ball->setMaterialName("Examples/SphereMappedRustySteel");
+    ball->setCastShadows(true);
+    rootNode = scnMgr->getRootSceneNode()->createChildSceneNode("Ball");
+    rootNode->attachObject(ball);
+    rootNode->setScale(0.05,0.05,0.05);
+    bRadius = 5.0f;
+    bDirection = Ogre::Vector3(rand() % 100, rand() % 100, rand() % 100);
+    bDirection.normalise();
+    bSpeed = rand() % 200 + 100;
 }
 
-Ball::~Ball() {
-}
-
-Ball::move(const Ogre::FrameEvent& evt) {
-    
+void Ball::move(const Ogre::FrameEvent& evt) {
+    // Collision with walls
+    Ogre::Vector3 bPosition = rootNode->getPosition();
+    if (bPosition.y < -grounds->height/2.0f + bRadius && bDirection.y < 0.0f) 
+        bDirection.y = -bDirection.y;
+    if (bPosition.y > grounds->height/2.0f - bRadius && bDirection.y > 0.0f) 
+        bDirection.y = -bDirection.y;
+    if (bPosition.z < -grounds->length/2.0f + bRadius && bDirection.z < 0.0f) 
+        bDirection.z = -bDirection.z;
+    if (bPosition.z > grounds->length/2.0f - bRadius && bDirection.z > 0.0f) 
+        bDirection.z = -bDirection.z;
+    if (bPosition.x < -grounds->width/2.0f + bRadius && bDirection.x < 0.0f) 
+        bDirection.x = -bDirection.x;
+    if (bPosition.x > grounds->width/2.0f - bRadius && bDirection.x > 0.0f) 
+        bDirection.x = -bDirection.x;
+    // Move ball
+    rootNode->translate(bSpeed * evt.timeSinceLastFrame * bDirection); 
 }
 
 

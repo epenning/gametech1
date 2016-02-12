@@ -6,9 +6,12 @@
 class PlayingField {
 public:
     Ogre::SceneNode* rootNode;
+    Ogre::Real height;
+    Ogre::Real length;
+    Ogre::Real width;
 
     PlayingField(Ogre::SceneManager* scnMgr);
-    ~PlayingField();
+    ~PlayingField() {}
     Ogre::SceneNode* getNode() {
         return rootNode;
     }

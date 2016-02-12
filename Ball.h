@@ -13,7 +13,7 @@ protected:
     PlayingField* grounds;
 public:
     Ball(Ogre::SceneManager* scnMgr);
-    ~Ball();
+    ~Ball() {}
     void move(const Ogre::FrameEvent& evt);
     Ogre::SceneNode* getNode() {
         return rootNode;

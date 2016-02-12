@@ -32,9 +32,12 @@ public:
     virtual ~TutorialApplication(void);
 
 protected:
+    Ball* ball;
+
     virtual void createScene(void);
     virtual void createCamera();
     virtual void createViewports();
+    virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt);
 };
 
 //---------------------------------------------------------------------------
